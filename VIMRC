@@ -1,0 +1,63 @@
+" plugins needed : 
+" gtags.vim
+" nerdtree
+
+execute pathogen#infect()
+
+syntax enable
+filetype plugin indent on
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+map <C-c> :w <CR> :!gcc % -o %< && ./%< <CR>
+
+imap jj <Esc>`^
+
+
+
+" flychecker
+"
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+
+" tagbar.vim
+nnoremap <silent> <F9> :TagbarToggle<CR>
+
+nnoremap *
+    \ :exec("cs find s ".expand("<cword>"))<CR>
+    \ :copen<CR>
+
+
+map <C-b> :tag 
+map <C-l> :ts <CR>
+map <C-n> :tn <CR>
+map <C-k> :tp <CR>
+map <C-f> :tf <CR>
+map <C-l> :tl <CR>
+
+map <C-a> :cs find e 
+
+" update database
+
+map <F5> :!cscope -Rb<CR>:cs reset<CR><CR>
+
+let g:find_files_findprg = 'find $d ! -type d $*'
+
+
+
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=8
+" when indenting with '>', use 4 spaces width
+set shiftwidth=8
+" On pressing tab, insert 4 spaces
+set expandtab
+
+
