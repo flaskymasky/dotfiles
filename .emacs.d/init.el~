@@ -1,0 +1,121 @@
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
+;; and `package-pinned-packages`. Most users will not need or want to do this.
+;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(package-initialize)
+
+;; (load-theme 'gruvbox t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(load-theme 'gruvbox-light-medium t)
+;; CLANG-FORMAT
+(load "~/.emacs.d/clang-format-config")
+
+;; XAH-FLY-KEYS
+(load "~/.emacs.d/xah-fly-keys-config")
+
+;; HELM
+(load "~/.emacs.d/helm-my-config")
+
+;; HELM-GTAGS
+;; (load "~/.emacs.d/helm-gtags-config")
+
+;; IVY
+;; (load "~/.emacs.d/ivy-config")
+
+;; ZOOM-WINDOW
+(load "~/.emacs.d/zoom-window-config")
+
+;; GTAGS
+(load "~/.emacs.d/gtags-config")
+
+;; HELM-SWOOP
+(load "~/.emacs.d/helm-swoop-config")
+
+;; FLYCHECKER
+(load "~/.emacs.d/flycheck-config");
+
+;; RENAME FILE
+(load "~/.emacs.d/rename-file-config.el");
+
+(setq
+ c-default-style "linux" ;; set style to "linux"
+ )
+
+;; SETTINGS
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(toggle-scroll-bar -1)
+(global-set-key [f7] 'neotree-toggle)
+(setq-default tab-width 8)
+(setq tab-width 8)
+(require 'helm-eshell)
+
+(add-hook 'eshell-mode-hook
+          #'(lambda ()
+              (define-key eshell-mode-map (kbd "M-l")  'helm-eshell-history)))
+
+;; for shell-mode
+(define-key shell-mode-map (kbd "C-c C-l") 'helm-comint-input-ring)
+
+(setq aw-background nil)
+
+;; (set-face-attribute 'default nil :family 'BiWidth)
+;; (set-face-attribute 'fixed-pitch nil :family 'unspecified)
+;(set-face-attribute 'default nil :height 140)
+(global-set-key (kbd "M-o") 'ace-window)
+
+(setq make-backup-files nil)
+
+(fa-config-default)
+(set-default 'semantic-case-fold t)
+
+
+;; dont show backups
+(defadvice completion--file-name-table (after 
+                                        ignoring-backups-f-n-completion 
+                                        activate)
+  "Filter out results when they match `completion-ignored-extensions'."
+  (let ((res ad-return-value))
+(if (and (listp res)
+     (stringp (car res))
+     (cdr res))                 ; length > 1, don't ignore sole match
+    (setq ad-return-value
+	  (completion-pcm--filename-try-filter res)))))
+;; dont create lock files
+(setq create-lockfiles nil)
+;; disable autosave
+;; (setq auto-save-default nil)
+(setq backup-directory-alist
+      `((".*" . "~/.saves")))
+(setq auto-save-file-name-transforms
+      `((".*" "~/.saves" t)))
+
+
+
+; SEE TAGS IN BUFFER
+(fa-config-default)
+(set-default 'semantic-case-fold t)
+
+
+
+
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (gruvbox-theme flycheck ample-theme ample-zen-theme zenburn-theme neotree dired-sidebar magit helm-swoop helm-gtags helm astyle format-all clang-format sr-speedbar function-args xah-elisp-mode cssh ivy-hydra counsel zoom-window rainbow-mode rainbow-delimiters ggtags ace-window)))
+ '(zoom-window-mode-line-color "Yellow"))
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 135 :width normal :foundry "PfEd" :family "DejaVu Sans"))))
+ '(region ((t (:background "cyan" :distant-foreground "gtk_selection_fg_color")))))

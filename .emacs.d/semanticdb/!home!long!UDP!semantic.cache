@@ -1,0 +1,205 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/socket.h" include (:system-flag t) nil [99 122])
+            ("netinet/in.h" include (:system-flag t) nil [123 146])
+            ("arpa/inet.h" include (:system-flag t) nil [147 169])
+            ("handle" variable (:constant-flag t) nil [179 185])
+            ("MAXLINE" variable (:constant-flag t) nil [250 257])
+            ("main" function (:type "int") nil [263 1204])
+            ("close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("sockfd" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1179 1186]))                  
+                :type "int")
+                nil [1173 1187]))          
+      :file "fd1.c"
+      :pointmax 1206
+      :fsize 1205
+      :lastmodtime '(24765 12600 550607 834000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 185 . 190) . 
+              ((DO "do" 195 . 197) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 198 . 231) (WHILE "while" 231 . 236) (semantic-list "(0)" 236 . 239) (punctuation ";" 239 . 240)))
+          ("MAXLINE" . ((number "4096" 258 . 262)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/socket.h" include (:system-flag t) nil [99 122])
+            ("netinet/in.h" include (:system-flag t) nil [123 146])
+            ("arpa/inet.h" include (:system-flag t) nil [147 169])
+            ("handle" variable (:constant-flag t) nil [179 185])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [252 261])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [262 274]))                  
+                :type "int")
+                nil [243 917]))          
+      :file "fd2.c"
+      :pointmax 918
+      :fsize 917
+      :lastmodtime '(24765 12481 630680 582000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 185 . 190) . 
+              ((DO "do" 195 . 197) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 198 . 231) (WHILE "while" 231 . 236) (semantic-list "(0)" 236 . 239) (punctuation ";" 239 . 240)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/socket.h" include (:system-flag t) nil [99 122])
+            ("netinet/in.h" include (:system-flag t) nil [123 146])
+            ("arpa/inet.h" include (:system-flag t) nil [147 169])
+            ("sys/types.h" include (:system-flag t) nil [170 192])
+            ("netdb.h" include (:system-flag t) nil [193 211])
+            ("handle" variable (:constant-flag t) nil [221 227])
+            ("get_in_port" function
+               (:arguments 
+                  ( ("sa" variable
+                       (:pointer 1
+                        :type ("sockaddr" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [300 320]))                  
+                :type "int")
+                nil [284 465])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [476 485])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [486 498]))                  
+                :type "int")
+                nil [467 1481])
+            ("freeaddrinfo" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("result" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1456 1463]))                  
+                :type "int")
+                nil [1443 1464]))          
+      :file "dns.c"
+      :pointmax 1482
+      :fsize 1481
+      :lastmodtime '(24765 15141 44239 427000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 227 . 232) . 
+              ((DO "do" 237 . 239) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 240 . 273) (WHILE "while" 273 . 278) (semantic-list "(0)" 278 . 281) (punctuation ";" 281 . 282)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "stream.c"
+      :pointmax 873
+      :fsize 872
+      :lastmodtime '(24765 15505 821492 539000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "getinfo.c"
+      :pointmax 1625
+      :fsize 1624
+      :lastmodtime '(24765 17245 287035 862000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/socket.h" include (:system-flag t) nil [99 122])
+            ("netinet/in.h" include (:system-flag t) nil [123 146])
+            ("arpa/inet.h" include (:system-flag t) nil [147 169])
+            ("sys/types.h" include (:system-flag t) nil [170 192])
+            ("netdb.h" include (:system-flag t) nil [193 211])
+            ("pthread.h" include (:system-flag t) nil [212 232])
+            ("errno.h" include (:system-flag t) nil [233 251])
+            ("headers/full_socket.h" include nil nil [252 284])
+            ("handle" variable (:constant-flag t) nil [294 300])
+            ("servaddr" variable (:type ("sockaddr_in" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [1134 1162])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1085 1094])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1095 1107]))                  
+                :type "int")
+                nil [1076 1246])
+            ("network_accept_any" function
+               (:arguments 
+                  ( ("fds" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [380 390])
+                    ("count" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [391 410])
+                    ("addr" variable
+                       (:pointer 1
+                        :type ("sockaddr" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [430 452])
+                    ("addrlen" variable
+                       (:pointer 1
+                        :type ("socklen_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [453 472]))                  
+                :type "int")
+                nil [357 1075])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1085 1094])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1095 1107]))                  
+                :type "int")
+                nil [1076 1246]))          
+      :file "map.c"
+      :pointmax 1247
+      :fsize 1246
+      :lastmodtime '(24765 20503 887946 622000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 300 . 305) . 
+              ((DO "do" 310 . 312) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 313 . 346) (WHILE "while" 346 . 351) (semantic-list "(0)" 351 . 354) (punctuation ";" 354 . 355)))
+          )
+))
+  :file "!home!long!UDP!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
