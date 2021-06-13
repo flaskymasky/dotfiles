@@ -43,7 +43,7 @@
 (add-hook 'helm-minibuffer-set-up-hook
           'spacemacs//helm-hide-minibuffer-maybe)
 
-(setq helm-split-window-in-side-p t)
+;; (setq helm-split-window-in-side-p t)
 ;; (setq helm-autoresize-max-height 0)
 ;; (setq helm-autoresize-min-height 20)
 ;; (helm-autoresize-mode 1)

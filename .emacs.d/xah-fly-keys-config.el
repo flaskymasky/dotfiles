@@ -4,6 +4,7 @@
 (xah-fly-keys-set-layout "qwerty")
 (xah-fly-keys 1)
 (define-key xah-fly-c-keymap (kbd "e") 'helm-find-files)
+(define-key xah-fly-command-map (kbd ",") 'ace-window)
 
  ;; SCROLL IN PDF ( XAH )
  (with-eval-after-load 'pdf-view

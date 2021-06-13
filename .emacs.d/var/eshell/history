@@ -1,104 +1,128 @@
-cd ..
-cd ..
+./got 127.0.0.1
+./got 127.0.0
+./got 127.0.0
+./got 127
+make test
+./test
+make test
+./test
+./test
+make test
+./test
+sudo tcpdump
+make daytime
+sudo ./daytime
+make daytime
+sudo ./daytime
+sudo ./daytime
+sudo ./daytime
+sudo ./daytime
+make daytime
+sudo ./daytime
+make daytime
+sudo ./daytime
+make daytime
+sudo ./daytime
+sudo ./daytime
+sudo ./daytime
+sudo ./daytime
+make daytime
+sudo ./daytime
+make daytime
+sudo ./daytime
+make daytime
+sudo ./daytime
+./guck
+make guck
+./guck
+sudo ./web
+make web
+sudo ./web
+sudo ./web
+sudo ./web
+make web
+./web
+make web
+./web
+make bwe
+make web
+./web
+make web
+./web
+make web
+./web
+make web
+./web
+make web
+./web
+./web
+./web
+./web
+./web
+./web
+./web
+./web
+make web
+./web
+./web
+./web
+make daytime
+sudo ./daytime
+sudo crontab -e
+xmodmap ~/.Xmodmap
 ls
-mkdir TEST
-mkdir GIT_TEST
-cd GIT_TEST
-ls
+sudo ./fsock
+nc localhost 20
+nc localhost 20
+nc localhost 20
 clear
-ls
-ls
-sudo apt-get install git
-git config --global user.name "flaskymasky"
-git config --global user.email "maxmilian.filipov@gmail.com"
-git config --global list
-git config --global --list
-git init
-ls
-git add *
-git commit -m "just a test"
-git push origin master
-git remote add origin flaskymasky
-git remote add origin http://www.github.com/flaskymasky
-git pull
-git remote add origin http://www.github.com/flaskymasky/c_templates.git
-git pull
-git tag 1.0.0 1b2e1d63ff
-git log
-git log --author flaskymasky
-git log --pretty=oneline
+nc localhost 21
+nc localhost 9999
+nc localhost 9999
+nc localhost 8888
+nc localhost 38701
+./try
+./try
+make try
+./try
 clear
-ls
-cd ..
-mkdir GIT2
-cd GIT2
-ls
-git config --global user.name "flaskymasky"
-git config --global user.email "maximilian.filipov@gmail.com"
-git config --global color.ui true
-git config --global core.editor emacs
-ssh-keygen
-cat ~/.ssh/id_rsa.pub
-ls
-git add *
-git init
-git add *
-git commit -m "fuck you"
-git push
-git push flaskymasky
-git push --set-upstream flaskymasky master
-git push --set-upstream . master
-git push --set-upstream ~/GIT2 master
-ls
-git status
-git diff
-ls
-git add *
-git commit -a
-git remote add origin git@github.com:flaskymasky/TEST
-git push -u origin master
-git remote add origin https://github.com/flaskymask/TEST
-git push -u origin master
-cd ~/.ssh
-ls
-cat known_hosts 
+./try
+./try
+make try
 clear
-cat id_rsa.pub | xclip
-cat id_rsa.pub
-cat id_rsa.pub
-git config --global user.name "flasky"
-git config --global user.email "maximilian.filipov@gmail.com"
-git push -u origin master
-cd ..
-ls
-cd GIT2
-ls
-git remote add origin git@github.com:flaskymasky/TEST
-git push -u origin master
-ls
-git commit -a
-git push
-git add *
-git commit -a
-git push
-git status
-git state
-git stage
-git add *
-git stage
-git add .
-git push origin master
-ls
-git pull
-ls
-git status
-git add .
-git status
-git push -u origin master
-git config --list --show-origin
-git config --global user.editor nano
-cp
-ls
-cp ../welcome.el .
-ls
-ls
+./try
+make try
+./try
+make try
+./try
+make try
+clear
+./try
+make try
+./try
+make try
+./try
+make try
+./try
+./try
+make try
+./try
+./try
+clear
+./try
+make try
+./try
+make try
+./try
+make try
+./try
+make try
+./try
+./try
+./try
+./try
+time ./try
+time ./try
+time ./try
+time ./try
+time ./try

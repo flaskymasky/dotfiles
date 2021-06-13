@@ -5,6 +5,14 @@
 ;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
+(electric-pair-mode 1)
+(show-paren-mode 1)
+(defun linux-c-mode ()
+  "C mode with adjusted defaults for use with the Linux kernel."
+  (interactive)
+  (c-mode)
+  (c-set-style "K&R")
+  (setq c-basic-offset 4))
 
 ;; string-trim error fix
 (require 'subr-x)
