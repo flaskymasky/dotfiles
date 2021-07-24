@@ -1,0 +1,48 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("unistd.h" include (:system-flag t) nil [1 20])
+            ("fcntl.h" include (:system-flag t) nil [21 39])
+            ("errno.h" include (:system-flag t) nil [40 58])
+            ("stdio.h" include (:system-flag t) nil [60 78])
+            ("stdlib.h" include (:system-flag t) nil [79 98])
+            ("string.h" include (:system-flag t) nil [99 118])
+            ("stdint.h" include (:system-flag t) nil [119 138])
+            ("sys/user.h" include (:system-flag t) nil [140 161])
+            ("sys/stat.h" include (:system-flag t) nil [162 183])
+            ("sys/types.h" include (:system-flag t) nil [184 206])
+            ("sys/wait.h" include (:system-flag t) nil [207 228])
+            ("sys/mman.h" include (:system-flag t) nil [229 250])
+            ("sys/ptrace.h" include (:system-flag t) nil [251 274])
+            ("handle" variable (:constant-flag t) nil [284 290])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [356 365])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [366 378])
+                    ("envp" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [379 391]))                  
+                :type "int")
+                nil [347 1059]))          
+      :file "one.c"
+      :pointmax 1060
+      :fsize 1051
+      :lastmodtime '(24817 57287 426814 250000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 290 . 295) . 
+              ((DO "do" 300 . 302) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 303 . 336) (WHILE "while" 336 . 341) (semantic-list "(0)" 341 . 344) (punctuation ";" 344 . 345)))
+          )
+))
+  :file "!home!long!ELF!PT!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,128 @@
+gas32 ts
+gdb -q ts
+gas32 ts
+gdb -q ts
+gas32 ts
+gas32 ts
+gas32 ts
+gas32 ts
+gas32 ts
+gas32 ts
+gas32 ts
+gas32 ts
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+gas32 ts
+gdb -q ts
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+gdb -q hi
+bash run ret hi
+bash run ret hi
+gcc -m32 geil.c -o geil
+./geil
+./geil
+./geil
+./geil
+./geil
+./geil
+gcc -m32 geil.c -o geil
+./geil
+gcc -m32 geil.c -o geil
+./geil
+./geil
+gcc -m32 geil.c -o geil
+./geil
+gdb -q geil
+clear
+gas32 ffo
+gas32 fofo
+gas32 fofo
+gas32 fofo
+gas32 fofo
+gdb -q fofo
+gas32 fofo
+gas32 fofo

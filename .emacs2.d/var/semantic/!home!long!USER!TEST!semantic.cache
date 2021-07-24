@@ -1,0 +1,64 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [22 109]))          
+      :file "main.cpp"
+      :pointmax 110
+      :fsize 109
+      :lastmodtime '(24805 60777 181000 803000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "value.h"
+      :pointmax 1
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("VALUE_HEADER" variable (:constant-flag t) nil [30 42])
+            ("iostream" include (:system-flag t) nil [44 63])
+            ("Value" type
+               (:members 
+                  ( ("m_value" variable (:type "int") (reparse-symbol classsubparts) [84 96])
+                    ("public" label nil (reparse-symbol classsubparts) [99 106])
+                    ("Value" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("value" variable (:type "int") (reparse-symbol arg-sub-list) [115 125]))                          
+                        :type ("Value" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [109 145])
+                    ("<<" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("out" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [184 202])
+                            ("val" variable
+                               (:reference 1
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [203 214]))                          
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [151 270]))                  
+                :type "class")
+                nil [65 273]))          
+      :file "value.hpp"
+      :pointmax 282
+      :fsize 281
+      :lastmodtime '(24805 60952 952228 260000)
+      :unmatched-syntax '((symbol 30 . 42) (symbol 30 . 36))
+      :lexical-table 
+        '(("VALUE_HEADER")
+          )
+))
+  :file "!home!long!USER!TEST!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

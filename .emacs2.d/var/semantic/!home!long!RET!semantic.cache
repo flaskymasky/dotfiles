@@ -1,0 +1,58 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("_func" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [33 42])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [43 44]))                  
+                :type "char")
+                nil [21 45])
+            ("main" function (:type "int") nil [47 119]))          
+      :file "hi.c"
+      :pointmax 120
+      :fsize 119
+      :lastmodtime '(24827 14756 834055 401000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 130]))          
+      :file "hello.c"
+      :pointmax 131
+      :fsize 130
+      :lastmodtime '(24827 16727 830373 555000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("func" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [51 61]))                  
+                :type "void")
+                nil [41 81])
+            ("main" function (:type "int") nil [83 191]))          
+      :file "geil.c"
+      :pointmax 192
+      :fsize 191
+      :lastmodtime '(24827 29514 510819 741000)
+      :unmatched-syntax nil))
+  :file "!home!long!RET!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
