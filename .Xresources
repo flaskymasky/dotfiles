@@ -1,0 +1,37 @@
+xterm*background: black
+xterm*foreground: white
+xterm*loginShell: true
+xterm*scrollBar: false
+xterm*rightScrollBar: true
+xterm*title: XTerm
+xterm*iconName: XTerm
+xterm*saveLines: 50000
+xterm*jumpScroll: true
+xterm*scrollTtyOutput: false
+xterm*scrollKey: true
+xterm*alwaysUseMods: true
+xterm*metaSendsEscape: true
+xterm*faceName: Monospace Regular
+xterm*faceSize: 14
+XTerm*alternateScroll: true
+
+
+XTerm*vt100.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
+XTerm.VT100.translations: #override \
+Meta <Key> minus: smaller-vt-font() \n\
+Meta <Key> plus: larger-vt-font() \n\
+Meta <Key> KP_Subtract: smaller-vt-font() \n\
+Meta <Key> KP_Add: larger-vt-font() \n\
+Super <Key> minus: smaller-vt-font() \n\
+Super <Key> plus: larger-vt-font() \n\
+Super <Key> KP_Subtract: smaller-vt-font() \n\
+Super <Key> KP_Add: larger-vt-font() \n
+
+
+
+
+
+
