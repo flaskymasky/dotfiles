@@ -1,0 +1,53 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("fcntl.h" include (:system-flag t) nil [43 61])
+            ("netdb.h" include (:system-flag t) nil [62 80])
+            ("netinet/in.h" include (:system-flag t) nil [81 104])
+            ("signal.h" include (:system-flag t) nil [105 124])
+            ("stdio.h" include (:system-flag t) nil [125 143])
+            ("stdlib.h" include (:system-flag t) nil [144 163])
+            ("string.h" include (:system-flag t) nil [164 183])
+            ("sys/socket.h" include (:system-flag t) nil [184 207])
+            ("sys/stat.h" include (:system-flag t) nil [208 229])
+            ("sys/types.h" include (:system-flag t) nil [230 252])
+            ("sys/wait.h" include (:system-flag t) nil [253 274])
+            ("unistd.h" include (:system-flag t) nil [275 294])
+            ("handle" variable (:constant-flag t) nil [304 310])
+            ("sig_handler" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [653 661]))                  
+                :type "void")
+                nil [636 846])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [857 866])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [867 879]))                  
+                :type "int")
+                nil [848 2176]))          
+      :file "new.c"
+      :pointmax 2177
+      :fsize 2176
+      :lastmodtime '(24788 44569 222950 963000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 310 . 315) . 
+              ((DO "do" 379 . 381) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 382 . 623) (WHILE "while" 624 . 629) (semantic-list "(0)" 630 . 633) (punctuation ";" 633 . 634)))
+          )
+))
+  :file "!home!long!NEW!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

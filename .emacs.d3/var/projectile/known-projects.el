@@ -1,0 +1,1 @@
+("~/" "~/.emacs.d/" "~/KING/" "~/PAPA/SOME/" "~/PUNIX/" "~/UNIX/" "~/SHOW/" "~/MOJO/" "~/POOL/" "~/BANG/" "~/NEW/" "~/SOME/" "~/MA/SOME/" "~/MA/" "~/tt/TEST/" "~/GIT2/" "~/GIT_TEST/" "~/REPO1/")

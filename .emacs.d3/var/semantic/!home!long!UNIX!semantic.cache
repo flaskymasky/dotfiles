@@ -1,0 +1,77 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("unistd.h" include (:system-flag t) nil [40 59])
+            ("sys/socket.h" include (:system-flag t) nil [60 83])
+            ("sys/un.h" include (:system-flag t) nil [84 103])
+            ("handle" variable (:constant-flag t) nil [113 119])
+            ("popo" function
+               (:arguments 
+                  ( ("value" variable (:type "int") (reparse-symbol arg-sub-list) [174 184]))                  
+                :type "int")
+                nil [165 217])
+            ("main" function (:type "int") nil [218 512]))          
+      :file "basic.c"
+      :pointmax 524
+      :fsize 523
+      :lastmodtime '(24759 60054 351605 533000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 119 . 124) . 
+              ((DO "do" 129 . 131) (semantic-list "{ perror(str);exit(1);}" 131 . 154) (WHILE "while" 154 . 159) (semantic-list "(0)" 159 . 162) (punctuation ";" 162 . 163)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("sys/un.h" include (:system-flag t) nil [60 79])
+            ("sys/socket.h" include (:system-flag t) nil [80 103])
+            ("sys/wait.h" include (:system-flag t) nil [104 125])
+            ("unistd.h" include (:system-flag t) nil [126 145])
+            ("handle" variable (:constant-flag t) nil [218 224])
+            ("main" function (:type "int") nil [279 745]))          
+      :file "non.c"
+      :pointmax 746
+      :fsize 745
+      :lastmodtime '(24761 29560 709569 215000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 224 . 229) . 
+              ((charquote "\\" 230 . 231) (DO "do" 232 . 234) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 235 . 268) (WHILE "while" 268 . 273) (semantic-list "(0)" 273 . 276) (punctuation ";" 276 . 277)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("sys/types.h" include (:system-flag t) nil [80 102])
+            ("sys/socket.h" include (:system-flag t) nil [103 126])
+            ("netinet/in.h" include (:system-flag t) nil [127 150])
+            ("handle" variable (:constant-flag t) nil [160 166])
+            ("main" function (:type "int") nil [223 845]))          
+      :file "try.c"
+      :pointmax 846
+      :fsize 845
+      :lastmodtime '(24766 49150 387268 516000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 166 . 171) . 
+              ((DO "do" 175 . 177) (semantic-list "{ perror(str);exit(EXIT_FAILURE);}" 178 . 212) (WHILE "while" 212 . 217) (semantic-list "(0)" 217 . 220) (punctuation ";" 220 . 221)))
+          )
+))
+  :file "!home!long!UNIX!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

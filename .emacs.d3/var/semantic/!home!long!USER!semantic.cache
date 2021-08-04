@@ -1,0 +1,54 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("grp.h" include (:system-flag t) nil [1 17])
+            ("stdio.h" include (:system-flag t) nil [18 36])
+            ("stdlib.h" include (:system-flag t) nil [37 56])
+            ("string.h" include (:system-flag t) nil [57 76])
+            ("sys/stat.h" include (:system-flag t) nil [77 98])
+            ("sys/types.h" include (:system-flag t) nil [99 121])
+            ("unistd.h" include (:system-flag t) nil [122 141])
+            ("limits.h" include (:system-flag t) nil [142 161])
+            ("main" function (:type "int") nil [165 300]))          
+      :file "mod.c"
+      :pointmax 302
+      :fsize 314
+      :lastmodtime '(24805 61209 6750 378000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("for" code nil nil [4 39]))          
+      :file "luck.py"
+      :pointmax 40
+      :fsize 39
+      :lastmodtime '(24805 61271 765328 337000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [22 102]))          
+      :file "hello.cpp"
+      :pointmax 103
+      :fsize 102
+      :lastmodtime '(24805 60549 419628 919000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 40]))          
+      :file "fuck.cpp"
+      :pointmax 41
+      :fsize 40
+      :lastmodtime '(24805 60726 926933 652000)
+      :unmatched-syntax nil))
+  :file "!home!long!USER!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
