@@ -12,8 +12,8 @@ delete-old-versions t)
 (setq tramp-backup-directory-alist backup-directory-alist)
 (setq auto-save-file-name-transforms nil)
 ; SEE TAGS IN BUFFER
-(fa-config-default)
-(set-default 'semantic-case-fold t)
+;;(fa-config-default)
+;;(set-default 'semantic-case-fold t)
 
 ;; dont show backups
 (defadvice completion--file-name-table (after 

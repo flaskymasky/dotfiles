@@ -1,10 +1,8 @@
-;; -*- emacs-lisp -*- <21/06/12 17:26:01 /home/long/.emacs.d/var/tramp/persistency.el>
+;; -*- emacs-lisp -*- <21/08/25 06:07:51 /home/lord/.emacs.d/var/tramp/persistency.el>
 ;; Tramp connection history.  Don't change this file.
-;; You can delete it, forcing Tramp to reapply the checks.
+;; Run `M-x tramp-cleanup-all-connections' instead.
 
-(((tramp-file-name "su" "root" nil "long" nil nil nil)
-  nil)
- ((tramp-file-name "sudo" "root" nil "long" nil nil nil)
+(((tramp-file-name "sudo" "root" nil "long" nil nil nil)
   ("uname" "Linux 5.8.0-55-generic")
   ("locale" "LC_ALL=en_US.utf8")
   ("test" "test")
@@ -18,4 +16,6 @@
   ("gid-integer" 0)
   ("uid-integer" 0)
   ("readlink" "\\readlink")
-  ("case-insensitive" nil)))
+  ("case-insensitive" nil))
+ ((tramp-file-name "sudo" "root" nil "lord" nil nil nil)
+  nil))

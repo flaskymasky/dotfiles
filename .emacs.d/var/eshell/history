@@ -1,128 +1,128 @@
-./got 127.0.0.1
-./got 127.0.0
-./got 127.0.0
-./got 127
-make test
-./test
-make test
-./test
-./test
-make test
-./test
-sudo tcpdump
-make daytime
-sudo ./daytime
-make daytime
-sudo ./daytime
-sudo ./daytime
-sudo ./daytime
-sudo ./daytime
-make daytime
-sudo ./daytime
-make daytime
-sudo ./daytime
-make daytime
-sudo ./daytime
-sudo ./daytime
-sudo ./daytime
-sudo ./daytime
-make daytime
-sudo ./daytime
-make daytime
-sudo ./daytime
-make daytime
-sudo ./daytime
-./guck
-make guck
-./guck
-sudo ./web
-make web
-sudo ./web
-sudo ./web
-sudo ./web
-make web
-./web
-make web
-./web
-make bwe
-make web
-./web
-make web
-./web
-make web
-./web
-make web
-./web
-make web
-./web
-./web
-./web
-./web
-./web
-./web
-./web
-./web
-make web
-./web
-./web
-./web
-make daytime
-sudo ./daytime
-sudo crontab -e
-xmodmap ~/.Xmodmap
+clear
+cat /etc/shells | cut -d "/" -f3
+awk '{print $NF}'
+cat /etc/shells | awk '{print $NF}'
+cat /etc/shells | awk '{print $NC}'
+cat /etc/shells | awk '{print $0}'
+cat /etc/shells | awk '{print $NF}'
+cat /etc/shells | awk '{print $3}'
+cat /etc/shells | awk '{print $2}'
+cat /etc/shells | awk '{print $1}'
+cat /etc/shells | awk '{print "\t" $1}'
+clear
 ls
-sudo ./fsock
-nc localhost 20
-nc localhost 20
-nc localhost 20
 clear
-nc localhost 21
-nc localhost 9999
-nc localhost 9999
-nc localhost 8888
-nc localhost 38701
-./try
-./try
-make try
-./try
+cat /etc/shells | awk '{print $CF}'
+cat /etc/shells | awk '{print §1}'
+cat /etc/shells
 clear
-./try
-./try
-make try
+cat awk
+cat awk | uniq
+cd HALLO
+ls
+make six
+./six 5555
+nc localhost 5555
+nc localhost 5555
+nc localhost 5555
+nc localhost 5555
+nc localhost 5555
+make addr
+./addr
+./addr
+./addr
+make addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+./addr
+make addr
+./addr 4444
+./addr 3333
+netstat -tulpan 3333
+netstat -tulpan 3333
+strace ./6 2222
+cat addr.c
+strace ./6 9999
+strace ./addr 9999
+gawk
+awk
+gawk
+cd AWK
+ls
 clear
-./try
-make try
-./try
-make try
-./try
-make try
+gawk first
+gawk -f first
+gawk -f first
+man gawk
+gawk -f first
+gawk -f first
+gawk -f first
+gawk -f first
+gawk { print "fuck" }
+gawk { print "fuck" }
+gawk { print $0 }
+cat /etc/shells
+cat /etc/shells | gawk { print $0 }
+cat /etc/shells | gawk "{ print $0 }"
+cat /etc/shells | gawk "{ print $1 }"
+cat /etc/shells | gawk -F/ "{ print $1 }"
+cat /etc/shells | gawk -F/ '{ print $1 }'
+cat /etc/shells | gawk -F/ '{ print $3 }'
+cat /etc/shells | gawk -F/ '{ print $2 }'#
+cat /etc/shells | gawk -F/ '{ print $1 }'#
+cat /etc/shells | gawk -F/ '{ print $2 }'#
+cat /etc/shells | gawk -F/ '{ print $3 }'#
+cat /etc/shells | gawk -F/ '{ print $4 }'#
+cat /etc/shells | gawk -F/ '{ print $NF }'#
+cat /etc/shells | gawk -F/ '{ print $NF }'
+wc
+ls -all | wc
+ls -all | wc | gawk {print $3}
+ls -all | wc | gawk '{print $3}'
+ls -all | wc
+ls -all | wc | gawk '{print $2}'
+ls -all | wc | gawk '{print $1}'
+ls -all | wc | gawk '{print $NF}'
+ls -all | wc | gawk '{print $CF}'
+ls -all | wc | gawk '{print $NF}'
+ls -all | wc | gawk '{print $DF}'
+ls -all | wc | gawk '{print $NF}'
+ls -all | wc | gawk '{print $3 $2 $1}'
+ls -all | wc | gawk '{print "$3 $2 $1"}'
+ls -all | wc | gawk '{print $3, " ", $2, " ", $1}'
+ls -all
+ls -all | gawk '{print $3}'
+ls -all | gawk '{print $2}'ll
+ls -all | gawk '{print $NF}'
+ls -all | gawk '{print $1}'
+ls -all | gawk '{print $NF-1}'
+ls -all | gawk '{print $5}'
+ls -all | gawk '{print $5+4}'
+gawk 
+gawk 'BEGIN {x=5} {print x, $x}'
+gawk -f first
+gawk -f first m a x i k
+man gawk
 clear
-./try
-make try
-./try
-make try
-./try
-make try
-./try
-./try
-make try
-./try
-./try
-clear
-./try
-make try
-./try
-make try
-./try
-make try
-./try
-make try
-./try
-./try
-./try
-./try
-time ./try
-time ./try
-time ./try
-time ./try
-time ./try
+man uniq
+cat /etc/shells
+cat /etc/shells | uniq -c
+cat /etc/shells | gawk '{print $NF}' | uniq -c
+cat /etc/shells | gawk -F/ '{print $NF}' | uniq -c
+source .bashrc

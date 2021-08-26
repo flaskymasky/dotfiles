@@ -1,1 +1,1 @@
-("~/KING/" "~/.emacs.d/" "~/" "~/SOME/" "~/MA/SOME/" "~/MA/" "~/tt/TEST/" "~/GIT2/" "~/GIT_TEST/" "~/REPO1/")
+("~/" "~/.emacs.d/" "~/c_templates/" "~/SHOW/")
