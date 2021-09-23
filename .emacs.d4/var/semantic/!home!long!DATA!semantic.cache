@@ -1,0 +1,578 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("time.h" include (:system-flag t) nil [60 77])
+            ("Node" type
+               (:members 
+                  ( ("value" variable (:type "int") (reparse-symbol classsubparts) [95 105])
+                    ("left" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [108 126])
+                    ("right" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [129 148]))                  
+                :type "struct")
+                nil [79 151])
+            ("COUNT" variable (:constant-flag t) nil [161 166])
+            ("init" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [188 192]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [170 193])
+            ("entry" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [213 217]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [194 218])
+            ("add_node" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [233 248])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [249 253]))                  
+                :type "int")
+                nil [220 254])
+            ("remove_node" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [271 286])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [287 291]))                  
+                :type "int")
+                nil [255 292])
+            ("clear_tree" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [308 322]))                  
+                :type "int")
+                nil [293 323])
+            ("print2DUtil" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [342 360])
+                    ("space" variable (:type "int") (reparse-symbol arg-sub-list) [361 371]))                  
+                :type "void")
+                nil [325 755])
+            ("print2D" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [800 818]))                  
+                :type "void")
+                nil [787 881])
+            ("count" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type "int")
+                nil [883 904])
+            ("search_value" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 2
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [923 942])
+                    ("_vts" variable (:type "int") (reparse-symbol arg-sub-list) [943 952]))                  
+                :type "void")
+                nil [905 1236])
+            ("inorder" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1250 1268]))                  
+                :type "void")
+                nil [1237 1397])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1407 1416])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1417 1429]))                  
+                :type "int")
+                nil [1398 2194])
+            ("init" function
+               (:pointer 1
+                :arguments 
+                  ( ("_value" variable (:type "int") (reparse-symbol arg-sub-list) [2214 2225]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [2196 2437])
+            ("add_node" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 2
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2452 2471])
+                    ("_value" variable (:type "int") (reparse-symbol arg-sub-list) [2472 2483]))                  
+                :type "int")
+                nil [2439 2689])
+            ("entry" function
+               (:pointer 1
+                :arguments 
+                  ( ("_value" variable (:type "int") (reparse-symbol arg-sub-list) [2709 2720]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [2690 2955])
+            ("remove_node" function
+               (:arguments 
+                  ( ("root" variable
+                       (:pointer 2
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2972 2991])
+                    ("_value_to_del" variable (:type "int") (reparse-symbol arg-sub-list) [2992 3010]))                  
+                :type "int")
+                nil [2956 3273]))          
+      :file "bin.c"
+      :pointmax 3274
+      :fsize 3273
+      :lastmodtime '(24811 44749 809407 854000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("COUNT" . ((number "10" 167 . 169)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "node.h"
+      :pointmax 1
+      :fsize 277
+      :lastmodtime '(24806 6742 65540 900000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("node.h" include nil nil [1 18])
+            ("stdio.h" include (:system-flag t) nil [19 37])
+            ("init" function
+               (:pointer 1
+                :arguments 
+                  ( ("_name" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [57 69]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [39 285])
+            ("add_node" function
+               (:arguments 
+                  ( ("family" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [300 320])
+                    ("_name" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [321 333]))                  
+                :type "int")
+                nil [287 342]))          
+      :file "node.c"
+      :pointmax 343
+      :fsize 337
+      :lastmodtime '(24806 6788 523470 335000)
+      :unmatched-syntax '((semantic-list 295 . 297) (symbol 287 . 295) (INT 283 . 286)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 122]))          
+      :file "ala.c"
+      :pointmax 123
+      :fsize 122
+      :lastmodtime '(24806 9212 867553 876000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("time" include nil nil [1 12])
+            ("middle" function (:arguments 
+              ( ("value" variable nil (reparse-symbol function_parameters) [25 30])
+                ("a" variable nil (reparse-symbol function_parameters) [32 33]))              ) nil [14 510])
+            ("arr" variable nil nil [519 535])
+            ("middle" code nil nil [537 551]))          
+      :file "middle.py"
+      :pointmax 559
+      :fsize 558
+      :lastmodtime '(24807 5495 7936 152000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("search" function (:arguments 
+              ( ("A" variable nil (reparse-symbol function_parameters) [12 13])
+                ("a" variable nil (reparse-symbol function_parameters) [15 16]))              ) nil [1 229]))          
+      :file "sec.py"
+      :pointmax 242
+      :fsize 241
+      :lastmodtime '(24806 14662 368146 892000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("time" include nil nil [1 12])
+            ("search" function (:arguments 
+              ( ("array" variable nil (reparse-symbol function_parameters) [25 30])
+                ("a" variable nil (reparse-symbol function_parameters) [32 33]))              ) nil [14 489])
+            ("arr" variable nil nil [490 506])
+            ("search" code nil nil [508 523]))          
+      :file "mine.py"
+      :pointmax 539
+      :fsize 538
+      :lastmodtime '(24806 17087 356807 988000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("Node" type
+               (:members 
+                  ( ("data" variable (:type "int") (reparse-symbol classsubparts) [57 66])
+                    ("color" variable (:type "char") (reparse-symbol classsubparts) [69 80])
+                    ("left" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [84 102])
+                    ("right" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [105 124])
+                    ("parent" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [127 147]))                  
+                :type "struct")
+                nil [41 153])
+            ("main" function (:type "int") nil [155 181]))          
+      :file "rbt.c"
+      :pointmax 182
+      :fsize 181
+      :lastmodtime '(24811 43419 431916 775000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("fibo" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [31 37])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [38 44])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [45 51]))                  
+                :type "void")
+                nil [21 291]))          
+      :file "fibo.c"
+      :pointmax 390
+      :fsize 389
+      :lastmodtime '(24811 50774 743775 264000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("print_array" function
+               (:arguments 
+                  ( ("arr" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [38 47])
+                    ("len" variable (:type "int") (reparse-symbol arg-sub-list) [48 56])
+                    ("start" variable (:type "int") (reparse-symbol arg-sub-list) [57 67]))                  
+                :type "void")
+                nil [21 192])
+            ("main" function (:type "int") nil [194 423]))          
+      :file "4.c"
+      :pointmax 424
+      :fsize 423
+      :lastmodtime '(24811 49511 888835 83000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("counter" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [34 50])
+                    ("start" variable (:type "int") (reparse-symbol arg-sub-list) [51 61]))                  
+                :type "void")
+                nil [21 184])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [194 203])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [204 216]))                  
+                :type "int")
+                nil [185 282]))          
+      :file "count.c"
+      :pointmax 284
+      :fsize 283
+      :lastmodtime '(24811 49773 215480 106000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("sum" function
+               (:arguments 
+                  ( ("number" variable (:type "int") (reparse-symbol arg-sub-list) [30 41]))                  
+                :type "int")
+                nil [22 129])
+            ("main" function (:type "int") nil [130 269]))          
+      :file "sum.c"
+      :pointmax 270
+      :fsize 269
+      :lastmodtime '(24811 50933 230131 27000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("findgdc" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [33 39])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [40 46]))                  
+                :type "int")
+                nil [21 267])
+            ("main" function (:type "int") nil [268 407]))          
+      :file "comm.c"
+      :pointmax 408
+      :fsize 407
+      :lastmodtime '(24811 52157 83814 36000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("larg" function
+               (:arguments 
+                  ( ("arr" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [30 39])
+                    ("len" variable (:type "int") (reparse-symbol arg-sub-list) [40 48])
+                    ("start" variable (:type "int") (reparse-symbol arg-sub-list) [49 59])
+                    ("max" variable (:type "int") (reparse-symbol arg-sub-list) [60 68]))                  
+                :type "int")
+                nil [21 197])
+            ("main" function (:type "int") nil [198 437]))          
+      :file "larg.c"
+      :pointmax 438
+      :fsize 437
+      :lastmodtime '(24811 52590 125424 27000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("get_string_len" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 56]))                  
+                :type "int")
+                nil [21 139])
+            ("rev" function
+               (:pointer 1
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [150 166])
+                    ("len" variable (:type "int") (reparse-symbol arg-sub-list) [167 175])
+                    ("start" variable (:type "int") (reparse-symbol arg-sub-list) [176 186]))                  
+                :type "char")
+                nil [140 328])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [338 347])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [348 360]))                  
+                :type "int")
+                nil [329 517]))          
+      :file "rev.c"
+      :pointmax 519
+      :fsize 518
+      :lastmodtime '(24811 53279 29347 642000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("fac" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [29 35]))                  
+                :type "int")
+                nil [21 125])
+            ("main" function (:type "int") nil [130 193]))          
+      :file "fac.c"
+      :pointmax 194
+      :fsize 193
+      :lastmodtime '(24811 53762 973167 742000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("buffer" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type "char")
+                nil [21 43])
+            ("conv" function
+               (:pointer 1
+                :arguments 
+                  ( ("dec" variable (:type "int") (reparse-symbol arg-sub-list) [56 64])
+                    ("start" variable (:type "int") (reparse-symbol arg-sub-list) [65 75])
+                    ("len" variable (:type "int") (reparse-symbol arg-sub-list) [76 84]))                  
+                :type "char")
+                nil [45 294])
+            ("main" function (:type "int") nil [295 423]))          
+      :file "conv.c"
+      :pointmax 424
+      :fsize 423
+      :lastmodtime '(24811 55361 866093 208000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("prime" function
+               (:arguments 
+                  ( ("number" variable (:type "int") (reparse-symbol arg-sub-list) [32 43]))                  
+                :type "void")
+                nil [21 281])
+            ("main" function (:type "int") nil [282 356]))          
+      :file "prime.c"
+      :pointmax 357
+      :fsize 356
+      :lastmodtime '(24811 56562 239603 90000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("fac" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [49 55]))                  
+                :type "int")
+                nil [41 111])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [121 130])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [131 143]))                  
+                :type "int")
+                nil [112 231]))          
+      :file "fc.c"
+      :pointmax 232
+      :fsize 231
+      :lastmodtime '(24812 58260 691968 421000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 262]))          
+      :file "lcm.c"
+      :pointmax 263
+      :fsize 262
+      :lastmodtime '(24812 60543 86330 113000)
+      :unmatched-syntax nil))
+  :file "!home!long!DATA!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

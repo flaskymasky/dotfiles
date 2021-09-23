@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rm -rf config.h
+rm -rf config.def.h
+cp config.h.backup config.h
+cp config.h.backup config.def.h
+
+rm dwm.c
+cp dwm.c.orig dwm.c
+
+echo "resetting config..";
+

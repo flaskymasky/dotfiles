@@ -1,0 +1,128 @@
+gem update
+ls
+cd ..
+cd RUBY
+cd GTK
+ls
+ruby tk.rb
+xsetroot
+man xsetroot
+systemctl -i reboot
+ls
+clear
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+clear 1
+ls
+clear 1
+ls -all
+sudo pacman -S code
+ls
+rm -rf stumpwm/ 
+yay -S cl-alexandria-git
+make hi
+./hi
+./hi
+./hi
+./hi
+./hi
+./hi
+make hi
+./hi
+gcc -std=c89 hi.c -o hi
+./hi
+gcc -std=ansi hi.c -o hi
+gcc -std=c89hi.c -o hi
+gcc -std=c89 hi.c -o hi
+./hi
+gcc -std=c89 hi.c -o hi -Wall -Wextra -pedantic
+man 3 std::vector
+ls
+cd GAS
+ls
+gcc -o fuck fuck.c
+./fuck
+gcc -E -o fuck fuck.c
+gcc -E -dM -o fuck fuck.c
+./fuck
+gcc-dM -o fuck fuck.c
+gcc -dM -o fuck fuck.c
+./fuck
+sudo chmod a+x /usr/bin/val.sh
+yay -S ttf-hack
+xsetfont hack
+sudo pacman -S xset
+sudo pacman -S xsetfont
+fc-cache -vf
+fc-list
+fc-list | grep -i "monospace"
+fc-list | grep -i "mono"
+fc-match monospace
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+host www.youtube.de
+./mul www.google.de www.xhamster.com
+host www.youtube.de
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+./mul localhost
+./mul localhost
+make mul
+./mul localhost
+make isloop
+./isloop 5555
+amke isloop
+make isloop
+make isloop
+./isloop 1111 2222
+cat /etc/hosts
+make copy
+./copy www.google.de
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+make mul
+./mul www.google.de www.xhamster.com
+make copy
+make mul
+./mul www.google.de www.xhamster.com
+make copy
+make mul
+./mul www.google.de www.xhamster.com
+clear 1
+make mul
+./mul www.google.de www.youtube.de
+make mul
+./mul www.google.de www.youtube.de
+make mul
+./mul www.google.de
+./mul www.youtube.de
+./mul www.youtube.com
+make mul
+./mul localhost
+./mul localhost
+./mul localhost
+python3

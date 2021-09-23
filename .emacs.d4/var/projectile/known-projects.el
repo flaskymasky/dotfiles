@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/dwm/" "~/SHOW/.emacs.d3/" "~/UNIX/monitor/" "~/st/" "~/sic/" "~/c_templates/" "~/SHOW/")

@@ -1,0 +1,52 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [41 803]))          
+      :file "cat.c"
+      :pointmax 820
+      :fsize 819
+      :lastmodtime '(24797 47286 416615 865000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [41 503]))          
+      :file "pass.c"
+      :pointmax 504
+      :fsize 503
+      :lastmodtime '(24797 58380 637371 902000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [41 609]))          
+      :file "weird.c"
+      :pointmax 610
+      :fsize 609
+      :lastmodtime '(24797 56144 212388 845000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [41 861]))          
+      :file "puz.c"
+      :pointmax 862
+      :fsize 861
+      :lastmodtime '(24826 62351 701588 156000)
+      :unmatched-syntax nil))
+  :file "!home!long!FORCE!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
