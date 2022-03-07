@@ -1,0 +1,128 @@
+g++ -o socket socket.cpp 
+g++ -o sock socket.cpp
+./socket
+cd ..
+ls
+setxkbmap us
+xmodmap ~/.Xmodmap
+g++ -std=c++1z  -o /home/max/qr_7Q629T.out qr_7Q629T.cpp -pedantic -Wall -Wextra && /home/max/qr_7Q629T.out 
+g++ -std=c++1z  -o /home/max/qr_FZYeJg.out qr_FZYeJg.cpp -pedantic -Wall -Wextra && /home/max/qr_FZYeJg.out 
+g++ -std=c++1z  -o /home/max/qr_Sr2W4w.out qr_Sr2W4w.cpp -pedantic -Wall -Wextra && /home/max/qr_Sr2W4w.out 
+g++ -std=c++1z  -o /home/max/qr_eWP0gV.out qr_eWP0gV.cpp -pedantic -Wall -Wextra && /home/max/qr_eWP0gV.out 
+g++ -std=c++1z  -o /home/max/qr_NvdMB3.out qr_NvdMB3.cpp -pedantic -Wall -Wextra && /home/max/qr_NvdMB3.out 
+g++ -std=c++1z  -o /home/max/qr_J7XNm5.out qr_J7XNm5.cpp -pedantic -Wall -Wextra && /home/max/qr_J7XNm5.out 
+g++ -std=c++1z  -o /home/max/qr_50qc4k.out qr_50qc4k.cpp -pedantic -Wall -Wextra && /home/max/qr_50qc4k.out 
+g++ -std=c++1z  -o /home/max/qr_UjTL6f.out qr_UjTL6f.cpp -pedantic -Wall -Wextra && /home/max/qr_UjTL6f.out 
+g++ -std=c++1z  -o /home/max/qr_g5R6mc.out qr_g5R6mc.cpp -pedantic -Wall -Wextra && /home/max/qr_g5R6mc.out 
+g++ -std=c++1z  -o /home/max/qr_ZlLku8.out qr_ZlLku8.cpp -pedantic -Wall -Wextra && /home/max/qr_ZlLku8.out 
+g++ -std=c++1z  -o /home/max/qr_v5SARJ.out qr_v5SARJ.cpp -pedantic -Wall -Wextra && /home/max/qr_v5SARJ.out 
+g++ -std=c++1z  -o /home/max/CPP/qr_VYmj70.out qr_VYmj70.cpp -pedantic -Wall -Wextra && /home/max/CPP/qr_VYmj70.out 
+g++ -std=c++1z  -o /home/max/CPP/qr_za5ZlH.out qr_za5ZlH.cpp -pedantic -Wall -Wextra && /home/max/CPP/qr_za5ZlH.out 
+g++ -o type type.cpp -Wall -Wextra -pedantic
+./type
+cd Dow
+cd ~
+cd Downloads/
+ls
+unzip perfect_dos_vga_437.zip 
+fc-cache 
+cd /usr/share/fonts/truetype
+cd /usr/share/fonts/
+ls
+cd TTF
+ls
+cp ~/Downloads/vga436.ttf .
+sudo cp ~/Downloads/vga436.ttf .
+fc-cache
+xlsfonts
+sudo pacman -S xlsfonts
+xlsfonts
+fc-list
+fc-list | grep vga
+sudo pacman -S fonts-conf
+sudo pacman -S xorg-xlsfonts
+fonts-config
+ls
+clear
+sl
+ls
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+cd CP
+cd OP
+sl
+ls
+ls -all
+-rw-r--r--   1 max            users      279 2022-03-06 19:24 inc.c
+ls
+clear
+sl
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ls -all
+ls
+clear
+ls
+ls -all
+f
+ls -all
+top
+lsblk
+lscpu
+f
+git clone https://github.com/mclear-tools/emacs-workspaces.git
+ls
+cd emacs-workspaces/
+ls
+cp emacs-workspaces.el ~/.emacs.d/
+top
+lsblk
+ls -all
+ls
+ls -all
+clear
+ls
+ls -all
+ls
+clear
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+g++ -std=c++1z  -o /home/max/qr_7cgpOD.out qr_7cgpOD.cpp -pedantic -Wall -Wextra && /home/max/qr_7cgpOD.out 
+g++ -std=c++1z  -o /home/max/qr_CUHj4F.out qr_CUHj4F.cpp -pedantic -Wall -Wextra && /home/max/qr_CUHj4F.out 
+g++ -std=c++1z  -o /home/max/qr_CUHj4F.out qr_CUHj4F.cpp -pedantic -Wall -Wextra && /home/max/qr_CUHj4F.out 
+g++ -o cstring cstring.cpp -fno-stack-protector
+./cstring
+./cstring
+./cstring
+./cstring
+g++ -o cstring cstring.cpp -std=c++20
+./cstring
+systemctl shutdown
+shutdown
+shutdown -n
+shutdown -now
+man shutdown
+shuwdown -P
+shutdown -P
+shutdown 0

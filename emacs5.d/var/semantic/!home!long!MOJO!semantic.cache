@@ -1,0 +1,204 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("value.hpp" include nil nil [22 42])
+            ("main" function (:type "int") nil [44 139]))          
+      :file "main.cpp"
+      :pointmax 140
+      :fsize 139
+      :lastmodtime '(24823 1544 288938 287000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2 21])
+            ("Value" type
+               (:members 
+                  ( ("m_value" variable (:type "int") (reparse-symbol classsubparts) [39 51])
+                    ("public" label nil (reparse-symbol classsubparts) [54 61])
+                    ("Value" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("value" variable (:type "int") (reparse-symbol arg-sub-list) [70 80]))                          
+                        :type ("Value" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [64 100])
+                    ("<<" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("out" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [136 154])
+                            ("val" variable
+                               (:reference 1
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [155 166]))                          
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [104 212]))                  
+                :type "class")
+                nil [23 215]))          
+      :file "value.c"
+      :pointmax 216
+      :fsize 215
+      :lastmodtime '(24823 1355 897128 120000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2 21])
+            ("Value" type
+               (:members 
+                  ( ("m_value" variable (:type "int") (reparse-symbol classsubparts) [40 52])
+                    ("public" label nil (reparse-symbol classsubparts) [55 62])
+                    ("Value" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("value" variable (:type "int") (reparse-symbol arg-sub-list) [71 81]))                          
+                        :type ("Value" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [65 101])
+                    ("<<" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("out" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [137 155])
+                            ("val" variable
+                               (:reference 1
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [156 167]))                          
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [105 213]))                  
+                :type "class")
+                nil [24 216]))          
+      :file "value.cpp"
+      :pointmax 217
+      :fsize 216
+      :lastmodtime '(24823 1376 345975 869000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("fcntl.h" include (:system-flag t) nil [1 19])
+            ("signal.h" include (:system-flag t) nil [20 39])
+            ("stdio.h" include (:system-flag t) nil [40 58])
+            ("stdlib.h" include (:system-flag t) nil [59 78])
+            ("string.h" include (:system-flag t) nil [79 98])
+            ("sys/ptrace.h" include (:system-flag t) nil [99 122])
+            ("sys/stat.h" include (:system-flag t) nil [123 144])
+            ("sys/types.h" include (:system-flag t) nil [145 167])
+            ("sys/user.h" include (:system-flag t) nil [168 189])
+            ("sys/wait.h" include (:system-flag t) nil [190 211])
+            ("unistd.h" include (:system-flag t) nil [212 231])
+            ("handle" variable (:constant-flag t) nil [241 247])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [522 531])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [532 544])
+                    ("envp" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [545 557]))                  
+                :type "int")
+                nil [513 2014]))          
+      :file "work.c"
+      :pointmax 2015
+      :fsize 2014
+      :lastmodtime '(24823 5641 60901 102000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 247 . 252) . 
+              ((DO "do" 301 . 303) (semantic-list "{                                                          \\
+    perror(str);                                                \\
+    exit(EXIT_FAILURE);                                         \\
+  }" 304 . 500) (WHILE "while" 501 . 506) (semantic-list "(0)" 507 . 510) (punctuation ";" 510 . 511)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("unistd.h" include (:system-flag t) nil [1 20])
+            ("fcntl.h" include (:system-flag t) nil [21 39])
+            ("main" function (:type "int") nil [41 127]))          
+      :file "hello.c"
+      :pointmax 128
+      :fsize 127
+      :lastmodtime '(24823 5724 684367 884000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [22 67]))          
+      :file "test.c"
+      :pointmax 68
+      :fsize 67
+      :lastmodtime '(24823 6173 674981 704000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "value.hpp"
+      :fsize 216
+      :lastmodtime '(24823 1401 26999 71000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("add" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [29 33])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [34 38])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [39 43])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [44 48])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [49 53])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [53 57])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [57 61])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [62 66]))                  
+                :type "int")
+                nil [21 67])
+            ("main" function (:type "int") nil [71 146]))          
+      :file "xd.c"
+      :pointmax 147
+      :fsize 146
+      :lastmodtime '(24823 13463 373328 543000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [2 20])
+            ("add" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [30 34])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [35 39]))                  
+                :type "int")
+                nil [22 40])
+            ("main" function (:type "int") nil [42 117]))          
+      :file "gand.c"
+      :pointmax 118
+      :fsize 117
+      :lastmodtime '(24823 20313 581706 259000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("main" function (:type "int") nil [2 97]))          
+      :file "simple.c"
+      :pointmax 98
+      :fsize 97
+      :lastmodtime '(24823 23913 225105 774000)
+      :unmatched-syntax nil))
+  :file "!home!long!MOJO!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

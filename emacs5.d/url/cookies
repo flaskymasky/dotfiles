@@ -1,0 +1,31 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.com"
+  [url-cookie "NID" "216=J1hpRCSXvrX7rXglsoNj_y_4yYW-J5nvMDnwG1wOeFOGRvo7l3Ea7OC_xUxuRg1ZjQNfflY4A6VOri8dxQ4zz2f_OSte-mReRIUL4w0dUDQ0xjtUUtU8i_ZScYbbNFSBFA2Mb_WXyDjE5chlbZZLwBNB6vFoeH2dr8WQELKYYHA" "Fri, 03-Dec-2021 19:44:04 GMT" "/" ".google.com" nil])
+ (".google.de"
+  [url-cookie "NID" "216=fDHBGksEXnmO9eGVzIoSwIY6ts114binvR2n4sf2iyk6k_HSdsnkmvNzWdNZ-1PywUwk4hL8TiFTBS4sW5AXLQCYraSTgPuIKcNMpa2xlGpgC5Z6i4qrPOwF-lpuLmyiMUNJYxrbjyUrAsO_e0FVKopk82aVNaaprW1qydGdIlE" "Fri, 03-Dec-2021 19:42:44 GMT" "/" ".google.de" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Tue, 30-Nov-2021 19:43:34 GMT" "/complete/search" ".google.de" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Tue, 30-Nov-2021 19:43:34 GMT" "/search" ".google.de" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".youtube.com"
+  [url-cookie "CONSENT" "YES+cb.20210530-19-p0.de+FX+551" "Sun, 10-Jan-2038 07:59:59 GMT" "/" ".youtube.com" t])
+ (".google.de"
+  [url-cookie "CONSENT" "YES+cb.20210530-19-p0.de+FX+489" "Sun, 10-Jan-2038 07:59:59 GMT" "/" ".google.de" t]
+  [url-cookie "1P_JAR" "2021-06-03-19" "Sat, 03-Jul-2021 19:44:00 GMT" "/" ".google.de" t])
+ (".google.com"
+  [url-cookie "CONSENT" "YES+cb.20210530-19-p0.de+FX+914" "Sun, 10-Jan-2038 07:59:59 GMT" "/" ".google.com" t])
+ ("de.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "03-Jun-2021" "Mon, 05 Jul 2021 12:00:00 GMT" "/" "de.wikipedia.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "03-Jun-2021" "Mon, 05 Jul 2021 12:00:00 GMT" "/" ".wikipedia.org" t])
+ (".youtube.de"
+  [url-cookie "CONSENT" "PENDING+255" "Fri, 01-Jan-2038 00:00:00 GMT" "/" ".youtube.de" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

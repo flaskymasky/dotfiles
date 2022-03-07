@@ -1,0 +1,53 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("aoo" function (:type "int") nil [2 27]))          
+      :file "f1.c"
+      :pointmax 28
+      :fsize 27
+      :lastmodtime '(24815 17733 210589 170000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("boo" function (:type "int") nil [2 27]))          
+      :file "f2.c"
+      :pointmax 28
+      :fsize 27
+      :lastmodtime '(24815 17744 79042 847000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("coo" function (:type "int") nil [2 27]))          
+      :file "f3.c"
+      :pointmax 28
+      :fsize 27
+      :lastmodtime '(24815 17754 403473 886000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 84]))          
+      :file "hello.c"
+      :pointmax 85
+      :fsize 84
+      :lastmodtime '(24815 21457 364147 972000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "evil_puts.c"
+      :pointmax 492
+      :fsize 491
+      :lastmodtime '(24815 22429 532141 156000)
+      :unmatched-syntax nil))
+  :file "!home!long!ELF!RE!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,142 @@
+;; -*- coding: utf-8; lexical-binding: t; -*-
+
+(when (boundp 'c-mode-abbrev-table)
+  (clear-abbrev-table c-mode-abbrev-table))
+
+(define-abbrev-table 'c-mode-abbrev-table 
+  '(
+	("hhandle"
+	 "#define handle(str) \\
+do { \\
+\tperror(str); \\
+\texit(EXIT_FAILURE); \\
+} while(0);
+
+")
+	
+    ("3mf"
+     "#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>\n
+
+#define handle(str) \\
+do {perror(str);exit(EXIT_FAILURE);}while(0);
+
+int main(int argc, char **argv)
+{
+
+\treturn 0;
+}
+")
+	("sheader"
+	 "#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <netdb.h>
+#include <signal.h>
+#include <errno.h>
+")
+	("mmain"
+	 "int main(int argc, char **argv)
+{
+
+\treturn 0;
+}
+")
+	 
+	 ("sockvar4" "int sockfd, connfd;
+
+\tstruct sockaddr_in saddr = {0};
+\tsaddr.sin_family = AF_INET;
+\tsaddr.sin_port = htons(atoi(argv[1]));
+\tsaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+
+")
+	 ("sockvar6" "int sockfd, connfd;
+
+\tstruct sockaddr_in6 saddr = {0};
+\tsaddr.sin6_family = AF_INET6;
+\tsaddr.sin6_port = htons(atoi(argv[1]));
+\tsaddr.sin6_addr = in6addr_any;
+
+")
+
+	("skt4"
+	 "if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1)
+\t\thandle(\"socket\");
+
+\tclose(sockfd);
+")
+	
+	("skt6"
+	 "if ((sockfd = socket(AF_INET6, SOCK_STREAM, 0)) == -1)
+\t\thandle(\"socket\");
+
+\tclose(sockfd);
+")
+	("sku4"
+	 "if ((sockfd = socket(AF_INET, SOCK_DGRAM, 0)) == -1)
+\t\thandle(\"socket\");
+
+\tclose(sockfd);
+")
+	("sku6"
+	 "if ((sockfd = socket(AF_INET6, SOCK_DGRAM, 0)) == -1)
+\t\thandle(\"socket\");
+
+\tclose(sockfd);
+")
+	("bbind"
+	 "if (bind(sockfd, (struct sockaddr*)&saddr, sizeof(saddr)) == -1)
+\t\thandle(\"bind\");
+	
+")
+	("llisten"
+	 "if (listen(sockfd, 1024) == -1)
+\t\thandle(\"listen\");
+")
+	("basichello"
+	 "for (;;) {
+
+\t\tif ((connfd = accept(sockfd, NULL, NULL)) == -1)
+\t\t\tcontinue;
+
+\t\twrite(connfd, \"hello\", sizeof(\"hello\"));
+
+\t\tclose(connfd);
+}")
+	("uprep4"
+	 "struct sockaddr_in client;
+socklen_t client_len = sizeof(client);
+char rbuf[4096];
+char sbuf[4096];
+
+")
+	("uprep6"
+	 "struct sockaddr_in6 client;
+\tsocklen_t client_len = sizeof(client);
+\tchar rbuf[4096];
+\tchar sbuf[4096];
+
+")
+	("rrec"
+	 "if (recvfrom(sockfd, rbuf, sizeof(rbuf), 0, (struct sockaddr*)&client, &client_len) == -1)
+\t\thandle(\"recvfrom\");
+
+")
+	("ssend"
+	 "if (sendto(sockfd, sbuf, strlen(sbuf), 0, (struct sockaddr*)&client, client_len) == -1)
+\t\thandle(\"sendto\");
+")
+	
+	))
+
+(set-default 'abbrev-mode t)
+
+(setq save-abbrevs nil)
