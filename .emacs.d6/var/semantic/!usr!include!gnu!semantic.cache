@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file-15675250b1f0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15675250b1f0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15675250b20c"
+      :major-mode c-mode
+      :tags 
+        '( ("gnu/stubs-64.h" include (:system-flag t) nil [272 298]))          
+      :file "stubs.h"
+      :pointmax 385
+      :fsize 384
+      :lastmodtime '(24732 10768 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1567524d372c"
+      :file "stubs-64.h"
+      :fsize 481
+      :lastmodtime '(24732 10768 0 0)))
+  :file "!usr!include!gnu!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

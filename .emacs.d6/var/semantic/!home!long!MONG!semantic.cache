@@ -1,0 +1,94 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("string.h" include (:system-flag t) nil [80 99])
+            ("sys/socket.h" include (:system-flag t) nil [100 123])
+            ("sys/types.h" include (:system-flag t) nil [124 146])
+            ("errno.h" include (:system-flag t) nil [147 165])
+            ("arpa/inet.h" include (:system-flag t) nil [166 188])
+            ("time.h" include (:system-flag t) nil [189 206])
+            ("handle" variable (:constant-flag t) nil [216 222])
+            ("main" function (:type "int") nil [278 1101]))          
+      :file "daytime.c"
+      :pointmax 1109
+      :fsize 1108
+      :lastmodtime '(24771 21976 546652 767000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 222 . 227) . 
+              ((DO "do" 231 . 233) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 234 . 267) (WHILE "while" 267 . 272) (semantic-list "(0)" 272 . 275) (punctuation ";" 275 . 276)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("string.h" include (:system-flag t) nil [80 99])
+            ("sys/socket.h" include (:system-flag t) nil [100 123])
+            ("sys/types.h" include (:system-flag t) nil [124 146])
+            ("errno.h" include (:system-flag t) nil [147 165])
+            ("arpa/inet.h" include (:system-flag t) nil [166 188])
+            ("time.h" include (:system-flag t) nil [189 206])
+            ("sys/wait.h" include (:system-flag t) nil [207 228])
+            ("handle" variable (:constant-flag t) nil [238 244])
+            ("main" function (:type "int") nil [534 1249])
+            ("close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("sockfd" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1228 1235]))                  
+                :type "int")
+                nil [1222 1236]))          
+      :file "spammer.c"
+      :pointmax 1250
+      :fsize 1249
+      :lastmodtime '(24771 21966 518245 123000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 244 . 249) . 
+              ((DO "do" 312 . 314) (semantic-list "{                                                                   \\
+		perror(str);                                                   \\
+		exit(EXIT_FAILURE);                                            \\
+	}" 315 . 521) (WHILE "while" 522 . 527) (semantic-list "(0)" 528 . 531) (punctuation ";" 531 . 532)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("string.h" include (:system-flag t) nil [80 99])
+            ("sys/socket.h" include (:system-flag t) nil [100 123])
+            ("sys/types.h" include (:system-flag t) nil [124 146])
+            ("errno.h" include (:system-flag t) nil [147 165])
+            ("arpa/inet.h" include (:system-flag t) nil [166 188])
+            ("time.h" include (:system-flag t) nil [189 206])
+            ("handle" variable (:constant-flag t) nil [216 222])
+            ("main" function (:type "int") nil [278 1003]))          
+      :file "normal.c"
+      :pointmax 1004
+      :fsize 1003
+      :lastmodtime '(24771 37098 709157 963000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 222 . 227) . 
+              ((DO "do" 231 . 233) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 234 . 267) (WHILE "while" 267 . 272) (semantic-list "(0)" 272 . 275) (punctuation ";" 275 . 276)))
+          )
+)
+)
+  :file "!home!long!MONG!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,391 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("foochu" function
+               (:typemodifiers ("static" "inline")
+                :type "void")
+                nil [1 32])
+            ("func1" function (:type "void") nil [33 49])
+            ("_start" function (:type "int") nil [51 86]))          
+      :file "see.c"
+      :pointmax 87
+      :fsize 86
+      :lastmodtime '(24814 3708 826072 927000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("func1" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [31 37])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [38 44])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [45 51]))                  
+                :type "int")
+                nil [21 76])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [87 92]))                  
+                :type "int")
+                nil [78 145]))          
+      :file "ft.c"
+      :pointmax 146
+      :fsize 145
+      :lastmodtime '(24815 9057 641974 118000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("foo" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10 15]))                  
+                :type "int")
+                nil [2 19])
+            ("_start" function (:type "int") nil [20 61]))          
+      :file "weird.c"
+      :pointmax 62
+      :fsize 61
+      :lastmodtime '(24815 5690 600884 996000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_start" function (:type "int") nil [2 23]))          
+      :file "some.c"
+      :pointmax 24
+      :fsize 23
+      :lastmodtime '(24815 9968 136126 555000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("foo" function (:type "int") nil [1 108]))          
+      :file "gome.c"
+      :pointmax 109
+      :fsize 108
+      :lastmodtime '(24815 10772 373826 527000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("elf.h" include (:system-flag t) nil [1 17])
+            ("errno.h" include (:system-flag t) nil [18 36])
+            ("fcntl.h" include (:system-flag t) nil [37 55])
+            ("stdint.h" include (:system-flag t) nil [56 75])
+            ("stdio.h" include (:system-flag t) nil [76 94])
+            ("stdlib.h" include (:system-flag t) nil [95 114])
+            ("string.h" include (:system-flag t) nil [115 134])
+            ("sys/mman.h" include (:system-flag t) nil [135 156])
+            ("sys/stat.h" include (:system-flag t) nil [157 178])
+            ("unistd.h" include (:system-flag t) nil [179 198])
+            ("handle" variable (:constant-flag t) nil [208 214])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [549 558])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [559 571]))                  
+                :type "int")
+                nil [540 3416])
+            ("puts" function
+               (:prototype-flag t
+                :type "int")
+                nil [2652 2684]))          
+      :file "pars.c"
+      :pointmax 3417
+      :fsize 3416
+      :lastmodtime '(24816 61872 982968 821000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 214 . 219) . 
+              ((DO "do" 283 . 285) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 286 . 527) (WHILE "while" 528 . 533) (semantic-list "(0)" 534 . 537) (punctuation ";" 537 . 538)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 84]))          
+      :file "fuck.c"
+      :pointmax 85
+      :fsize 83
+      :lastmodtime '(24816 64138 587334 833000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("elf.h" include (:system-flag t) nil [1 17])
+            ("errno.h" include (:system-flag t) nil [18 36])
+            ("fcntl.h" include (:system-flag t) nil [37 55])
+            ("signal.h" include (:system-flag t) nil [56 75])
+            ("stdint.h" include (:system-flag t) nil [76 95])
+            ("stdio.h" include (:system-flag t) nil [96 114])
+            ("stdlib.h" include (:system-flag t) nil [115 134])
+            ("string.h" include (:system-flag t) nil [135 154])
+            ("sys/mman.h" include (:system-flag t) nil [155 176])
+            ("sys/ptrace.h" include (:system-flag t) nil [177 200])
+            ("sys/stat.h" include (:system-flag t) nil [201 222])
+            ("sys/types.h" include (:system-flag t) nil [223 245])
+            ("sys/user.h" include (:system-flag t) nil [246 267])
+            ("sys/wait.h" include (:system-flag t) nil [268 289])
+            ("unistd.h" include (:system-flag t) nil [290 309])
+            ("myerror" variable (:constant-flag t) nil [319 326])
+            ("handle" type
+               (:members 
+                  ( ("ehdr" variable
+                       (:pointer 1
+                        :type ("Elf64_Ehdr" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [677 694])
+                    ("phdr" variable
+                       (:pointer 1
+                        :type ("Elf64_Phdr" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [697 714])
+                    ("shdr" variable
+                       (:pointer 1
+                        :type ("Elf64_Shdr" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [717 734])
+                    ("mem" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [737 750])
+                    ("symname" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [753 767])
+                    ("symaddr" variable (:type ("Elf64_Addr" type (:type "class") nil nil)) (reparse-symbol classsubparts) [770 789])
+                    ("pt_reg" variable (:type ("user_regs_struct" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [792 823])
+                    ("exec" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [826 837]))                  
+                :type "struct")
+                nil [651 849])
+            ("handle_t" type
+               (:typedef ("handle" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [651 849])
+            ("lookup_symbol" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("handle_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [876 887])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [888 901]))                  
+                :type ("Elf64_Addr" type (:type "class") nil nil))
+                nil [851 902])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [913 922])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [923 935])
+                    ("envp" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [936 948]))                  
+                :type "int")
+                nil [904 4240])
+            ("lookup_symbol" function
+               (:arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("handle_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4267 4279])
+                    ("symname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4280 4300]))                  
+                :type ("Elf64_Addr" type (:type "class") nil nil))
+                nil [4242 4784]))          
+      :file "trace.c"
+      :pointmax 4785
+      :fsize 4784
+      :lastmodtime '(24817 2836 400621 890000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("myerror" (spp-arg-list ("str") 326 . 331) . 
+              ((DO "do" 394 . 396) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 397 . 638) (WHILE "while" 639 . 644) (semantic-list "(0)" 645 . 648) (punctuation ";" 648 . 649)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("print_string" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [39 55]))                  
+                :type "void")
+                nil [21 72])
+            ("main" function (:type "int") nil [74 169]))          
+      :file "hello.c"
+      :pointmax 170
+      :fsize 169
+      :lastmodtime '(24818 324 761447 83000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("elf.h" include (:system-flag t) nil [1 17])
+            ("errno.h" include (:system-flag t) nil [18 36])
+            ("fcntl.h" include (:system-flag t) nil [37 55])
+            ("unistd.h" include (:system-flag t) nil [56 75])
+            ("signal.h" include (:system-flag t) nil [77 96])
+            ("stdint.h" include (:system-flag t) nil [97 116])
+            ("stdio.h" include (:system-flag t) nil [117 135])
+            ("stdlib.h" include (:system-flag t) nil [136 155])
+            ("string.h" include (:system-flag t) nil [156 175])
+            ("sys/mman.h" include (:system-flag t) nil [177 198])
+            ("sys/ptrace.h" include (:system-flag t) nil [199 222])
+            ("sys/stat.h" include (:system-flag t) nil [223 244])
+            ("sys/types.h" include (:system-flag t) nil [245 267])
+            ("sys/user.h" include (:system-flag t) nil [268 289])
+            ("sys/wait.h" include (:system-flag t) nil [290 311])
+            ("myerror" variable (:constant-flag t) nil [321 328])
+            ("handle" type
+               (:members 
+                  ( ("ehdr" variable
+                       (:pointer 1
+                        :type ("Elf64_Ehdr" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [619 636])
+                    ("phdr" variable
+                       (:pointer 1
+                        :type ("Elf64_Phdr" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [639 656])
+                    ("shdr" variable
+                       (:pointer 1
+                        :type ("Elf64_Shdr" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [659 676])
+                    ("mem" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [679 692])
+                    ("symname" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [695 709])
+                    ("symaddr" variable (:type ("Elf64_Addr" type (:type "class") nil nil)) (reparse-symbol classsubparts) [712 731])
+                    ("pt_reg" variable (:type ("user_regs_struct" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [734 765])
+                    ("exec" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [768 779]))                  
+                :type "struct")
+                nil [593 791])
+            ("handle_t" type
+               (:typedef ("handle" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [593 791])
+            ("global_pid" variable (:type "int") nil [793 808])
+            ("lookup_symbol" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("handle_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [834 845])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [846 859]))                  
+                :type ("Elf64_Addr" type (:type "class") nil nil))
+                nil [809 860])
+            ("get_exe_name" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [880 884]))                  
+                :type "char")
+                nil [861 885])
+            ("sighandler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [902 906]))                  
+                :type "void")
+                nil [886 907])
+            ("EXE_MODE" variable (:constant-flag t) nil [917 925])
+            ("PID_MODE" variable (:constant-flag t) nil [936 944])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [957 966])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [967 979])
+                    ("envp" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [980 992]))                  
+                :type "int")
+                nil [948 5293])
+            ("lookup_symbol" function
+               (:arguments 
+                  ( ("h" variable
+                       (:pointer 1
+                        :type ("handle_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5320 5332])
+                    ("symname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5333 5353]))                  
+                :type ("Elf64_Addr" type (:type "class") nil nil))
+                nil [5295 5874])
+            ("get_exe_name" function
+               (:pointer 1
+                :arguments 
+                  ( ("pid" variable (:type "int") (reparse-symbol arg-sub-list) [5895 5903]))                  
+                :type "char")
+                nil [5876 6206])
+            ("sighandler" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [6223 6231]))                  
+                :type "void")
+                nil [6207 6457]))          
+      :file "att.c"
+      :pointmax 6458
+      :fsize 6457
+      :lastmodtime '(24817 62909 811748 908000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("EXE_MODE" . ((number "0" 926 . 927)))
+          ("myerror" (spp-arg-list ("str") 328 . 333) . 
+              ((DO "do" 381 . 383) (semantic-list "{                                                          \\
+    perror(str);                                                \\
+    exit(EXIT_FAILURE);                                         \\
+  }" 384 . 580) (WHILE "while" 581 . 586) (semantic-list "(0)" 587 . 590) (punctuation ";" 590 . 591)))
+          ("PID_MODE" . ((number "1" 945 . 946)))
+          )
+))
+  :file "!home!long!ELF!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

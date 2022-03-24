@@ -1,0 +1,63 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("unistd.h" include (:system-flag t) nil [1 20])
+            ("fcntl.h" include (:system-flag t) nil [21 39])
+            ("main" function (:type "int") nil [41 111]))          
+      :file "hello.c"
+      :pointmax 112
+      :fsize 111
+      :lastmodtime '(24819 17903 434162 298000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("errno.h" include (:system-flag t) nil [1 19])
+            ("fcntl.h" include (:system-flag t) nil [20 38])
+            ("signal.h" include (:system-flag t) nil [39 58])
+            ("stdio.h" include (:system-flag t) nil [59 77])
+            ("stdlib.h" include (:system-flag t) nil [78 97])
+            ("string.h" include (:system-flag t) nil [98 117])
+            ("sys/ptrace.h" include (:system-flag t) nil [118 141])
+            ("sys/stat.h" include (:system-flag t) nil [142 163])
+            ("sys/types.h" include (:system-flag t) nil [164 186])
+            ("sys/user.h" include (:system-flag t) nil [187 208])
+            ("sys/wait.h" include (:system-flag t) nil [209 230])
+            ("unistd.h" include (:system-flag t) nil [231 250])
+            ("__x86__" variable (:constant-flag t) nil [260 267])
+            ("handle" variable (:constant-flag t) nil [277 283])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [558 567])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [568 580])
+                    ("envp" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [581 593]))                  
+                :type "int")
+                nil [549 2006]))          
+      :file "inj.c"
+      :pointmax 2007
+      :fsize 2006
+      :lastmodtime '(24819 24889 161249 213000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__x86__")
+          ("handle" (spp-arg-list ("str") 283 . 288) . 
+              ((DO "do" 337 . 339) (semantic-list "{                                                          \\
+    perror(str);                                                \\
+    exit(EXIT_FAILURE);                                         \\
+  }" 340 . 536) (WHILE "while" 537 . 542) (semantic-list "(0)" 543 . 546) (punctuation ";" 546 . 547)))
+          )
+))
+  :file "!home!long!INJ!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

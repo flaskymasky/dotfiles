@@ -1,0 +1,192 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdbool.h" include (:system-flag t) nil [1 21])
+            ("stddef.h" include (:system-flag t) nil [22 41])
+            ("stdint.h" include (:system-flag t) nil [42 61])
+            ("vga_color" type
+               (:members 
+                  ( ("VGA_COLOR_BACK" variable
+                       (:constant-flag t
+                        :default-value (297 298)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [280 298])
+                    ("VGA_COLOR_BLUE" variable
+                       (:constant-flag t
+                        :default-value (319 320)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [302 320])
+                    ("VGA_COLOR_GREEN" variable
+                       (:constant-flag t
+                        :default-value (342 343)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [324 343])
+                    ("VGA_COLOR_CYAN" variable
+                       (:constant-flag t
+                        :default-value (364 365)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [347 365])
+                    ("VGA_COLOR_RED" variable
+                       (:constant-flag t
+                        :default-value (385 386)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [369 386])
+                    ("VGA_COLOR_MAGENTA" variable
+                       (:constant-flag t
+                        :default-value (410 411)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [390 411])
+                    ("VGA_COLOR_BROWN" variable
+                       (:constant-flag t
+                        :default-value (433 434)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [415 434])
+                    ("VGA_COLOR_LIGHT_GREY" variable
+                       (:constant-flag t
+                        :default-value (461 462)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [438 462])
+                    ("VGA_COLOR_DARK_GREY" variable
+                       (:constant-flag t
+                        :default-value (488 489)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [466 489])
+                    ("VGA_COLOR_LIGHT_BLUE" variable
+                       (:constant-flag t
+                        :default-value (516 517)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [493 517])
+                    ("VGA_COLOR_LIGHT_GREEN" variable
+                       (:constant-flag t
+                        :default-value (545 547)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [521 547])
+                    ("VGA_COLOR_LIGHT_CYAN" variable
+                       (:constant-flag t
+                        :default-value (574 576)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [551 576])
+                    ("VGA_COLOR_LIGHT_RED" variable
+                       (:constant-flag t
+                        :default-value (602 604)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [580 604])
+                    ("VGA_COLOR_LIGHT_MAGENTA" variable
+                       (:constant-flag t
+                        :default-value (634 636)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [608 636])
+                    ("VGA_COLOR_LIGHT_BROWN" variable
+                       (:constant-flag t
+                        :default-value (664 666)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [640 666])
+                    ("VGA_COLOR_WHITE" variable
+                       (:constant-flag t
+                        :default-value (688 690)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [670 690]))                  
+                :type "enum")
+                nil [261 694])
+            ("vga_entry_color" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("fg" variable (:type ("vga_color" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [734 752])
+                    ("bg" variable (:type ("vga_color" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [791 809]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [696 836])
+            ("vga_entry" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("uc" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [871 888])
+                    ("color" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [889 903]))                  
+                :type ("uint16_t" type (:type "class") nil nil))
+                nil [838 953])
+            ("strlen" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [969 985]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [955 1052])
+            ("VGA_WIDTH" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "80"
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1054 1089])
+            ("VGA_HEIGHT" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "25"
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1090 1126])
+            ("terminal_row" variable (:type ("size_t" type (:type "class") nil nil)) nil [1128 1148])
+            ("terminal_column" variable (:type ("size_t" type (:type "class") nil nil)) nil [1149 1172])
+            ("terminal_color" variable (:type ("uint8_t" type (:type "class") nil nil)) nil [1173 1196])
+            ("terminal_buffer" variable
+               (:pointer 1
+                :type ("uint16_t" type (:type "class") nil nil))
+                nil [1197 1223])
+            ("terminal_initialize" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1250 1255]))                  
+                :type "void")
+                nil [1225 1625])
+            ("terminal_setcolor" function
+               (:arguments 
+                  ( ("color" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1650 1664]))                  
+                :type "void")
+                nil [1627 1692])
+            ("terminal_putentryat" function
+               (:arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [1719 1726])
+                    ("color" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1727 1741])
+                    ("x" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1742 1751])
+                    ("y" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1777 1786]))                  
+                :type "void")
+                nil [1694 1880])
+            ("terminal_putchar" function
+               (:arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [1904 1911]))                  
+                :type "void")
+                nil [1882 2236])
+            ("terminal_write" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2257 2274])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2275 2287]))                  
+                :type "void")
+                nil [2237 2358])
+            ("terminal_writestring" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2386 2403]))                  
+                :type "void")
+                nil [2360 2445])
+            ("kernel_main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2464 2469]))                  
+                :type "void")
+                nil [2447 2639]))          
+      :file "kernel.c"
+      :pointmax 2640
+      :fsize 2639
+      :lastmodtime '(24841 22489 516799 342000)
+      :unmatched-syntax nil))
+  :file "!home!long!GOOD!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

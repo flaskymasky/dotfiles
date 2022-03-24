@@ -1,0 +1,159 @@
+;; Object semanticdb-project-database-file-1567524249d8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1567524249d8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156752827a10"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Fuck" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [35 43])
+                    ("m_value" variable (:type "int") (reparse-symbol classsubparts) [49 63])
+                    ("public" label nil (reparse-symbol classsubparts) [67 74])
+                    ("Fuck" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("value" variable
+                               (:default-value "0"
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [83 96]))                          
+                        :type ("Fuck" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [78 98])
+                    ("add" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [114 118]))                          
+                        :type ("Fuck" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [104 119])
+                    ("sub" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [132 136]))                          
+                        :type ("Fuck" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [122 137])
+                    ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("out" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [175 193])
+                            ("v" variable
+                               (:reference 1
+                                :type ("Fuck" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [194 202]))                          
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [143 203]))                  
+                :type "class")
+                nil [22 209])
+            ("Fuck" function
+               (:constructor-flag t
+                :parent "Fuck"
+                :arguments 
+                  ( ("Fuck" variable (:type "int") (reparse-symbol arg-sub-list) [222 231]))                  
+                :type ("Fuck" type (:type "class") nil nil))
+                nil [211 252])
+            ("add" function
+               (:parent "Fuck"
+                :arguments 
+                  ( ("Fuck" variable (:type "int") (reparse-symbol arg-sub-list) [270 279]))                  
+                :type ("Fuck" type (:type "class") nil nil))
+                nil [254 318])
+            ("sub" function
+               (:parent "Fuck"
+                :arguments 
+                  ( ("Fuck" variable (:type "int") (reparse-symbol arg-sub-list) [336 345]))                  
+                :type ("Fuck" type (:type "class") nil nil))
+                nil [320 384])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("out" variable
+                       (:reference 1
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [411 429])
+                    ("v" variable
+                       (:reference 1
+                        :type ("Fuck" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [430 438]))                  
+                :type ("std::ostream" type (:type "class") nil nil))
+                nil [386 476])
+            ("main" function (:type "int") nil [478 578]))          
+      :file "val.cpp"
+      :pointmax 579
+      :fsize 578
+      :lastmodtime '(25137 18473 943583 405000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-15675286c278"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Fuck" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [35 43])
+                    ("m_x" variable (:type "int") (reparse-symbol classsubparts) [49 57])
+                    ("m_y" variable (:type "int") (reparse-symbol classsubparts) [60 68])
+                    ("public" label nil (reparse-symbol classsubparts) [72 79])
+                    ("Fuck" function
+                       (:constructor-flag t
+                        :type ("Fuck" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [82 120])
+                    ("Fuck" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [128 134])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [135 141]))                          
+                        :type ("Fuck" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [123 161])
+                    ("<<" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("out" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [197 215])
+                            ("v" variable
+                               (:reference 1
+                                :type ("Fuck" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [216 224]))                          
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [165 293]))                  
+                :type "class")
+                nil [22 299])
+            ("main" function (:type "int") nil [301 367]))          
+      :file "c2.cpp"
+      :pointmax 368
+      :fsize 367
+      :lastmodtime '(25137 18180 670234 612000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1567523fdca4"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Fuck" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [35 43])
+                    ("value" variable (:type "int") (reparse-symbol classsubparts) [46 56])
+                    ("public" label nil (reparse-symbol classsubparts) [57 64])
+                    ("Fuck" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type ("Fuck" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [96 101]))                          
+                        :type ("Fuck" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [91 104]))                  
+                :type "class")
+                nil [22 113]))          
+      :file "te.cpp"
+      :pointmax 114
+      :fsize 113
+      :lastmodtime '(25137 18181 76901 301000)
+      :unmatched-syntax nil))
+  :file "!home!grande!CPP!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("a" variable
+               (:default-value "4"
+                :type "int")
+                nil [1 11])
+            ("b" variable
+               (:default-value "5"
+                :type "int")
+                nil [12 22]))          
+      :file "Compiler Explorer C Editor #1 Code (1).c"
+      :pointmax 23
+      :fsize 22
+      :lastmodtime '(24823 18976 226977 758000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("sys/socket.h" include (:system-flag t) nil [60 83])
+            ("sys/stat.h" include (:system-flag t) nil [84 105])
+            ("sys/types.h" include (:system-flag t) nil [106 128])
+            ("netinet/in.h" include (:system-flag t) nil [129 152])
+            ("unistd.h" include (:system-flag t) nil [153 172])
+            ("fcntl.h" include (:system-flag t) nil [173 191])
+            ("main" function (:type "int") nil [194 302]))          
+      :file "Compiler Explorer C Editor #1 Code (2).c"
+      :pointmax 302
+      :fsize 301
+      :lastmodtime '(24833 4687 38180 179000)
+      :unmatched-syntax nil))
+  :file "!home!long!Downloads!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

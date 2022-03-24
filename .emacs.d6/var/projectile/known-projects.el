@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/ERR/cpp_libs/" "~/LGAME/" "~/VECTOR/" "~/CPP/" "~/.emacs.d/emacs5.d/" "~/dwm/" "~/SHOW/.emacs.d3/" "~/SHOW/")

@@ -1,0 +1,128 @@
+./mul localhost
+./mul localhost
+./mul localhost
+python3
+clisp
+sudo pacman -S clisp
+sudo pacman -S cl
+cl
+sudo pacman -S sbcl
+sudo pacman -S nyxt
+yay -S nyxt
+(write "✈"))
+(write "✈")
+g++ -x c++  -o /home/grande/CLISP/qr_apEW0y.out qr_apEW0y.cpp && /home/grande/CLISP/qr_apEW0y.out 
+g++ -x c++  -o /home/grande/CLISP/qr_2sndsd.out qr_2sndsd.cpp && /home/grande/CLISP/qr_2sndsd.out 
+g++ -x c++  -o /home/grande/CLISP/qr_mPdZ4A.out qr_mPdZ4A.cpp && /home/grande/CLISP/qr_mPdZ4A.out 
+g++ -x c++  -o /home/grande/CLISP/qr_R6mSUF.out qr_R6mSUF.cpp && /home/grande/CLISP/qr_R6mSUF.out 
+g++ -x c++  -o /home/grande/CLISP/qr_BBRahw.out qr_BBRahw.cpp && /home/grande/CLISP/qr_BBRahw.out 
+g++ -x c++  -o /home/grande/CLISP/qr_NUJGZz.out qr_NUJGZz.cpp && /home/grande/CLISP/qr_NUJGZz.out 
+g++ -x c++  -o /home/grande/CLISP/qr_QQb6Go.out qr_QQb6Go.cpp && /home/grande/CLISP/qr_QQb6Go.out 
+g++ -x c++  -o /home/grande/CLISP/qr_rXExxG.out qr_rXExxG.cpp && /home/grande/CLISP/qr_rXExxG.out 
+g++ -x c++  -o /home/grande/CLISP/qr_3KBC93.out qr_3KBC93.cpp && /home/grande/CLISP/qr_3KBC93.out 
+g++ -x c++  -o /home/grande/CLISP/qr_g0KyZh.out qr_g0KyZh.cpp && /home/grande/CLISP/qr_g0KyZh.out 
+g++ -x c++  -o /home/grande/CLISP/qr_ljEoqr.out qr_ljEoqr.cpp && /home/grande/CLISP/qr_ljEoqr.out 
+g++ -x c++  -o /home/grande/CLISP/qr_cwvu3W.out qr_cwvu3W.cpp && /home/grande/CLISP/qr_cwvu3W.out 
+g++ -x c++  -o /home/grande/CLISP/qr_r0WcdJ.out qr_r0WcdJ.cpp && /home/grande/CLISP/qr_r0WcdJ.out 
+g++ -x c++  -o /home/grande/CLISP/qr_r0WcdJ.out qr_r0WcdJ.cpp && /home/grande/CLISP/qr_r0WcdJ.out 
+g++ -x c++  -o /home/grande/CLISP/qr_r0WcdJ.out qr_r0WcdJ.cpp && /home/grande/CLISP/qr_r0WcdJ.out 
+g++ -o findif findif.cpp -std=c++17
+g++ -o findif findif.cpp -std=c++20
+g++ -o findif findif.cpp -std=c++20
+g++ -o findif findif.cpp -std=c++17
+g++ -o findif findif.cpp -std=c++20
+g++ -o findif findif.cpp -std=c++20
+g++ -o findif findif.cpp -std=c++20
+./findif
+./findif
+g++ -x c++  -o /home/grande/CPP/qr_RpTCvi.out qr_RpTCvi.cpp && /home/grande/CPP/qr_RpTCvi.out 
+g++ -x c++  -o /home/grande/CPP/qr_jc9J73.out qr_jc9J73.cpp && /home/grande/CPP/qr_jc9J73.out 
+g++ -o stack stack.cpp
+l
+ls
+touch .projectile
+lsls
+ls
+rm -rf test.cpp
+python3
+make new
+ls
+clear
+ls
+nnn
+ls
+clear
+ls
+g++ -o main main.cpp vector.cpp
+ls
+clear
+ls
+clear
+ls
+clear
+touch creature.hpp
+touch creature.cpp
+touch player.hpp
+touch player.cpp
+touch monster.hpp
+touch monster.cpp
+pacman -S ag
+sudo pacman -S ag
+sudo pacman -S helm-ag
+yay -S helm-ag
+sudo pacman -S the_silver_searcher
+bash run.sh
+bash run.sh
+bash run.sh
+bash run.sh
+bash run.sh
+g++ -o fruit fruit.cpp
+g++ -o fruit fruit.cpp
+ls
+cd
+ls -all
+fidget LISP
+figlet LISP
+ls
+clear
+ls
+ls
+ls -all
+ls
+ls -all
+ls 1 2 3 4 5
+make hello
+./hello papa wie geht es dir
+make hello
+./hello papa wie geht es dir
+make hello
+./hello papa wie geht es dir
+make hello
+./hello papa wie geht es dir
+make hello
+./hello
+make hello
+clear 1
+./hello papa cool
+clear 1
+make hello
+./hello papa cool
+make hello
+./hello papa cool
+netcat
+man nc
+nc
+clear 1
+make hello
+./hello -c
+./hello -s
+htop+
+htop
+top
+g++ -o slice slice.cpp -std=c++20
+python3
+ls
+git clone https://www.github.com/flaskymasky/cpp_libs.git
+ls
+valgrind --leak-check-full --show-leak-kinds=all --track-origins=yes --verbose ./leak
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose ./leak
