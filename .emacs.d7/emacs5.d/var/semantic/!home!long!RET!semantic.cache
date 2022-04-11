@@ -1,0 +1,67 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("_reverse" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [35 45])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [46 52]))                  
+                :type "void")
+                nil [21 53])
+            ("main" function (:type "int") nil [55 173]))          
+      :file "hi.c"
+      :pointmax 174
+      :fsize 173
+      :lastmodtime '(24828 51519 734922 504000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 130]))          
+      :file "hello.c"
+      :pointmax 131
+      :fsize 130
+      :lastmodtime '(24827 16727 830373 555000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("func" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [51 61]))                  
+                :type "void")
+                nil [41 81])
+            ("main" function (:type "int") nil [83 191]))          
+      :file "geil.c"
+      :pointmax 192
+      :fsize 191
+      :lastmodtime '(24827 29514 510819 741000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [2 20])
+            ("main" function (:type "int") nil [22 75]))          
+      :file "code.c"
+      :pointmax 76
+      :fsize 75
+      :lastmodtime '(24828 37873 372466 180000)
+      :unmatched-syntax nil))
+  :file "!home!long!RET!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

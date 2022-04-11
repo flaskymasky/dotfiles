@@ -1,0 +1,81 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_IOSTREAM" variable (:constant-flag t) nil [1249 1266])
+            ("bits/c++config.h" include (:system-flag t) nil [1297 1324])
+            ("ostream" include (:system-flag t) nil [1325 1343])
+            ("istream" include (:system-flag t) nil [1344 1362])
+            ("std" type
+               (:type "namespace"
+                :members 
+                  ( ("cin" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("istream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1993 2012])
+                    ("cout" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2045 2065])
+                    ("cerr" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2099 2119])
+                    ("clog" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2165 2185])
+                    ("wcin" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("wistream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2258 2279])
+                    ("wcout" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("wostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2312 2334])
+                    ("wcerr" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("wostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2367 2389])
+                    ("wclog" variable
+                       (:parent "std"
+                        :typemodifiers ("extern")
+                        :type ("wostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2434 2456])
+                    ("__ioinit" variable
+                       (:parent "std"
+                        :typemodifiers ("static")
+                        :type ("ios_base::Init" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2585 2616]))                  )
+                nil [1364 2650]))          
+      :file "iostream"
+      :pointmax 2696
+      :fsize 2695
+      :lastmodtime '(24366 38117 0 0)
+      :unmatched-syntax '((symbol 2640 . 2648) (symbol 1282 . 1295) (symbol 1278 . 1281) (symbol 1271 . 1277) (punctuation 1270 . 1271))
+      :lexical-table 
+        '(("_GLIBCXX_IOSTREAM" . ((number "1" 1267 . 1268)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "ostream"
+      :fsize 22213
+      :lastmodtime '(24366 38117 0 0))
+    (semanticdb-table "semanticdb-table"
+      :file "istream"
+      :fsize 32843
+      :lastmodtime '(24366 38117 0 0)))
+  :file "!usr!include!c++!9!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

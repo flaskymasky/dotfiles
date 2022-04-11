@@ -1,0 +1,128 @@
+gls
+ls
+make rig
+make rig
+make rig2
+./rig
+rm rig
+./rig
+./rig
+ls
+make rig
+./rig
+rm gogu
+./rig
+./sig
+make isg
+make sig
+./sig
+make ./sig
+./sig
+,,,,
+./sig
+make sig
+./sig
+./sig
+./sig
+./dns www.xhamster.com
+./dns www.youtub.de
+./dns www.youtube.de
+./dns www.youtube.com
+make dns
+./dns www.google.de
+make dns
+./dns www.google.de
+make strea
+make stream
+make stream
+./stream
+./stream
+./getinfo localhost
+make un
+sudo ./un
+sudo ./un
+make un
+./un
+sudo ./un
+ls
+ls
+for x in {0..100};do echo "hello";done
+python -e "print('hello')"
+perl -e 'print "hello";'
+netstat -i
+netstat -ni
+netstat -r
+ifconfig
+ifconfig -a
+sudo apt install atril
+clear
+netstat -nr
+ifconfig -a
+make find
+ls
+cd KING
+make find
+./find
+make find
+./find
+./find
+make find
+./find
+./find
+./find 132.163.97.6
+make find
+./find 132.163.97.6
+./find 13
+./find 132.163.97.6
+make find
+./find 132.163.97.6
+./find 132.163.97.6
+./find 132.163.97.6
+./find 132.163.97.6
+make find
+./find 132.163.97.6
+ls
+clear
+ls
+netstat -r
+netstat -a
+ls
+netstat -a | grep 14
+nestat -s
+netstat -s
+ss -s
+netstat -tulpn
+netstat -tulpn
+netstat -tulpn | grep 14
+netstat -tulpn | grep 14
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           2658/chrome          f
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+perl file.pl
+clear
+./end
+clear
+./end
+make end
+./end
+ls
+rm '#*#'
+ls
+ls | grep -P "^#" | xargs -d"\n" rm
+ls

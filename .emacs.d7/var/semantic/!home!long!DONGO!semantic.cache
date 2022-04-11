@@ -1,0 +1,85 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("fcntl.h" include (:system-flag t) nil [24 42])
+            ("netinet/in.h" include (:system-flag t) nil [43 66])
+            ("poll.h" include (:system-flag t) nil [67 84])
+            ("stdio.h" include (:system-flag t) nil [85 103])
+            ("stdlib.h" include (:system-flag t) nil [104 123])
+            ("string.h" include (:system-flag t) nil [124 143])
+            ("sys/socket.h" include (:system-flag t) nil [144 167])
+            ("sys/stat.h" include (:system-flag t) nil [168 189])
+            ("sys/types.h" include (:system-flag t) nil [190 212])
+            ("unistd.h" include (:system-flag t) nil [213 232])
+            ("errno.h" include (:system-flag t) nil [233 251])
+            ("handle" variable (:constant-flag t) nil [261 267])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [602 611])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [612 624]))                  
+                :type "int")
+                nil [593 1301]))          
+      :file "writer.c"
+      :pointmax 1302
+      :fsize 1301
+      :lastmodtime '(24795 16728 545651 433000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 267 . 272) . 
+              ((DO "do" 336 . 338) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 339 . 580) (WHILE "while" 581 . 586) (semantic-list "(0)" 587 . 590) (punctuation ";" 590 . 591)))
+          )
+)
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("fcntl.h" include (:system-flag t) nil [24 42])
+            ("netinet/in.h" include (:system-flag t) nil [43 66])
+            ("poll.h" include (:system-flag t) nil [67 84])
+            ("stdio.h" include (:system-flag t) nil [85 103])
+            ("stdlib.h" include (:system-flag t) nil [104 123])
+            ("string.h" include (:system-flag t) nil [124 143])
+            ("sys/socket.h" include (:system-flag t) nil [144 167])
+            ("sys/stat.h" include (:system-flag t) nil [168 189])
+            ("sys/types.h" include (:system-flag t) nil [190 212])
+            ("unistd.h" include (:system-flag t) nil [213 232])
+            ("errno.h" include (:system-flag t) nil [233 251])
+            ("handle" variable (:constant-flag t) nil [261 267])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [602 611])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [612 624]))                  
+                :type "int")
+                nil [593 1096]))          
+      :file "check.c"
+      :pointmax 1097
+      :fsize 1093
+      :lastmodtime '(24795 17148 817844 821000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 267 . 272) . 
+              ((DO "do" 336 . 338) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 339 . 580) (WHILE "while" 581 . 586) (semantic-list "(0)" 587 . 590) (punctuation ";" 590 . 591)))
+          )
+))
+  :file "!home!long!DONGO!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

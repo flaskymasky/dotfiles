@@ -1,0 +1,19 @@
+;;-*-coding: utf-8;-*-
+(define-abbrev-table 'global-abbrev-table
+  '(
+    ("afaict" "as far as I can tell" nil :count 1)
+    ("btw" "by the way" nil :count 3)
+    ("ewiki" "http://www.emacswiki.org/cgi-bin/wiki.pl" nil :count 3)
+    ("omuse" "http://www.emacswiki.org/cgi-bin/oddmuse.pl" nil :count 0)
+    ("pov" "point of view" nil :count 1)
+    ("v0" "\\vspace{0.5cm}" nil :count 0)
+    ("v1" "\\vspace{1cm}" nil :count 0)
+    ("v2" "\\vspace{2cm}" nil :count 0)
+    ("v3" "\\vspace{3cm}" nil :count 0)
+    ("vv0" "\\vspace{-0.5cm}" nil :count 0)
+    ("vv1" "\\vspace{-1cm}" nil :count 0)
+    ("vv2" "\\vspace{-2cm}" nil :count 0)
+    ("vv3" "\\vspace{-3cm}" nil :count 0)
+    ("wether" "whether" nil :count 5)
+   ))
+

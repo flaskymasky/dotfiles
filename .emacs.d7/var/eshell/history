@@ -1,0 +1,128 @@
+g++ -o stack stack.cpp
+l
+ls
+touch .projectile
+lsls
+ls
+rm -rf test.cpp
+python3
+make new
+ls
+clear
+ls
+nnn
+ls
+clear
+ls
+g++ -o main main.cpp vector.cpp
+ls
+clear
+ls
+clear
+ls
+clear
+touch creature.hpp
+touch creature.cpp
+touch player.hpp
+touch player.cpp
+touch monster.hpp
+touch monster.cpp
+pacman -S ag
+sudo pacman -S ag
+sudo pacman -S helm-ag
+yay -S helm-ag
+sudo pacman -S the_silver_searcher
+bash run.sh
+bash run.sh
+bash run.sh
+bash run.sh
+bash run.sh
+g++ -o fruit fruit.cpp
+g++ -o fruit fruit.cpp
+ls
+cd
+ls -all
+fidget LISP
+figlet LISP
+ls
+clear
+ls
+ls
+ls -all
+ls
+ls -all
+ls 1 2 3 4 5
+make hello
+./hello papa wie geht es dir
+make hello
+./hello papa wie geht es dir
+make hello
+./hello papa wie geht es dir
+make hello
+./hello papa wie geht es dir
+make hello
+./hello
+make hello
+clear 1
+./hello papa cool
+clear 1
+make hello
+./hello papa cool
+make hello
+./hello papa cool
+netcat
+man nc
+nc
+clear 1
+make hello
+./hello -c
+./hello -s
+htop+
+htop
+top
+g++ -o slice slice.cpp -std=c++20
+python3
+ls
+git clone https://www.github.com/flaskymasky/cpp_libs.git
+ls
+valgrind --leak-check-full --show-leak-kinds=all --track-origins=yes --verbose ./leak
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose ./leak
+ls
+clear
+sudo pacman -S global
+sudo pacman -S ack
+sudo pacman -S emacs-sv
+pacman -S the_silver_searcher
+sudo pacman -S the_silver_searcher
+cd
+cd TEMP
+sl
+clear
+ls
+clear
+ls
+ls
+clear
+ls
+cd UNI/CPP
+cd
+cd UNI/CPP
+ls
+clewar
+ls
+ls
+clear
+ls
+valgrind --leak-check=full \         --show-leak-kinds=all \         --track-origins=yes \         --verbose \./main
+valgrind --leak-check=full \         --show-leak-kinds=all \         --track-origins=yes \         --verbose \./main
+python3
+ls
+rm -rf BAUM
+ls
+mkdir BAUM
+ls
+maxima
+ls
+rm -rf linked linked.h main main.c makefile
+ls
+rm linked.c

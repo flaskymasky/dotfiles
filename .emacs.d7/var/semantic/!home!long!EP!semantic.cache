@@ -1,0 +1,929 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("unistd.h" include (:system-flag t) nil [40 59])
+            ("fcntl.h" include (:system-flag t) nil [60 78])
+            ("sys/epoll.h" include (:system-flag t) nil [79 101])
+            ("handle" variable (:constant-flag t) nil [111 117])
+            ("main" function (:type "int") nil [173 667]))          
+      :file "out.c"
+      :pointmax 668
+      :fsize 667
+      :lastmodtime '(24798 14598 890082 640000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 117 . 122) . 
+              ((DO "do" 126 . 128) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 129 . 162) (WHILE "while" 162 . 167) (semantic-list "(0)" 167 . 170) (punctuation ";" 170 . 171)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("netinet/in.h" include (:system-flag t) nil [43 66])
+            ("poll.h" include (:system-flag t) nil [67 84])
+            ("stdio.h" include (:system-flag t) nil [85 103])
+            ("stdlib.h" include (:system-flag t) nil [104 123])
+            ("string.h" include (:system-flag t) nil [124 143])
+            ("sys/epoll.h" include (:system-flag t) nil [144 166])
+            ("sys/socket.h" include (:system-flag t) nil [167 190])
+            ("sys/stat.h" include (:system-flag t) nil [191 212])
+            ("sys/types.h" include (:system-flag t) nil [213 235])
+            ("sys/wait.h" include (:system-flag t) nil [236 257])
+            ("time.h" include (:system-flag t) nil [258 275])
+            ("unistd.h" include (:system-flag t) nil [276 295])
+            ("MAX_EVENTS" variable (:constant-flag t) nil [305 315])
+            ("handle" variable (:constant-flag t) nil [328 334])
+            ("handle" variable (:constant-flag t) nil [328 334])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [669 678])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [679 691]))                  
+                :type "int")
+                nil [660 2029]))          
+      :file "maker.c"
+      :pointmax 2030
+      :fsize 2029
+      :lastmodtime '(24798 19159 596200 681000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAX_EVENTS" . ((number "256" 316 . 319)))
+          ("handle" (spp-arg-list ("str") 334 . 339) . 
+              ((DO "do" 403 . 405) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 406 . 647) (WHILE "while" 648 . 653) (semantic-list "(0)" 654 . 657) (punctuation ";" 657 . 658)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/types.h" include (:system-flag t) nil [99 121])
+            ("sys/stat.h" include (:system-flag t) nil [122 143])
+            ("sys/socket.h" include (:system-flag t) nil [144 167])
+            ("netinet/in.h" include (:system-flag t) nil [168 191])
+            ("arpa/inet.h" include (:system-flag t) nil [192 214])
+            ("handle" variable (:constant-flag t) nil [224 230])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [296 305])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [306 318]))                  
+                :type "int")
+                nil [287 1299]))          
+      :file "gong.c"
+      :pointmax 1300
+      :fsize 1299
+      :lastmodtime '(24799 11980 784969 144000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 230 . 235) . 
+              ((DO "do" 240 . 242) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 243 . 276) (WHILE "while" 276 . 281) (semantic-list "(0)" 281 . 284) (punctuation ";" 284 . 285)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/types.h" include (:system-flag t) nil [99 121])
+            ("sys/stat.h" include (:system-flag t) nil [122 143])
+            ("sys/socket.h" include (:system-flag t) nil [144 167])
+            ("netinet/in.h" include (:system-flag t) nil [168 191])
+            ("arpa/inet.h" include (:system-flag t) nil [192 214])
+            ("handle" variable (:constant-flag t) nil [224 230])
+            ("main" function (:type "int") nil [287 598]))          
+      :file "much.c"
+      :pointmax 599
+      :fsize 598
+      :lastmodtime '(24799 39603 159779 906000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 230 . 235) . 
+              ((DO "do" 240 . 242) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 243 . 276) (WHILE "while" 276 . 281) (semantic-list "(0)" 281 . 284) (punctuation ";" 284 . 285)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("fcntl.h" include (:system-flag t) nil [24 42])
+            ("netinet/in.h" include (:system-flag t) nil [43 66])
+            ("stdio.h" include (:system-flag t) nil [67 85])
+            ("stdlib.h" include (:system-flag t) nil [86 105])
+            ("string.h" include (:system-flag t) nil [106 125])
+            ("sys/epoll.h" include (:system-flag t) nil [126 148])
+            ("sys/socket.h" include (:system-flag t) nil [149 172])
+            ("sys/stat.h" include (:system-flag t) nil [173 194])
+            ("sys/types.h" include (:system-flag t) nil [195 217])
+            ("unistd.h" include (:system-flag t) nil [218 237])
+            ("handle" variable (:constant-flag t) nil [247 253])
+            ("MAX_EVENTS" variable (:constant-flag t) nil [587 597])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [611 620])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [621 633]))                  
+                :type "int")
+                nil [602 2214]))          
+      :file "final.c"
+      :pointmax 2215
+      :fsize 2214
+      :lastmodtime '(24804 57849 994485 963000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAX_EVENTS" . ((number "10" 598 . 600)))
+          ("handle" (spp-arg-list ("str") 253 . 258) . 
+              ((DO "do" 322 . 324) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 325 . 566) (WHILE "while" 567 . 572) (semantic-list "(0)" 573 . 576) (punctuation ";" 576 . 577)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("fcntl.h" include (:system-flag t) nil [43 61])
+            ("netinet/in.h" include (:system-flag t) nil [62 85])
+            ("pthread.h" include (:system-flag t) nil [86 106])
+            ("stdio.h" include (:system-flag t) nil [107 125])
+            ("stdlib.h" include (:system-flag t) nil [126 145])
+            ("string.h" include (:system-flag t) nil [146 165])
+            ("sys/epoll.h" include (:system-flag t) nil [166 188])
+            ("sys/socket.h" include (:system-flag t) nil [189 212])
+            ("sys/stat.h" include (:system-flag t) nil [213 234])
+            ("sys/types.h" include (:system-flag t) nil [235 257])
+            ("unistd.h" include (:system-flag t) nil [258 277])
+            ("handle" variable (:constant-flag t) nil [287 293])
+            ("servaddr" variable
+               (:typemodifiers ("static")
+                :type ("sockaddr_in" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [621 656])
+            ("mini" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [669 679]))                  
+                :type "void")
+                nil [658 1725])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1736 1745])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1746 1758]))                  
+                :type "int")
+                nil [1727 2259]))          
+      :file "mega.c"
+      :pointmax 2260
+      :fsize 2259
+      :lastmodtime '(24811 42865 973522 788000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 293 . 298) . 
+              ((DO "do" 364 . 366) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 367 . 608) (WHILE "while" 609 . 614) (semantic-list "(0)" 615 . 618) (punctuation ";" 618 . 619)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/stat.h" include (:system-flag t) nil [99 120])
+            ("sys/types.h" include (:system-flag t) nil [121 143])
+            ("errno.h" include (:system-flag t) nil [144 162])
+            ("sys/socket.h" include (:system-flag t) nil [163 186])
+            ("netinet/in.h" include (:system-flag t) nil [187 210])
+            ("arpa/inet.h" include (:system-flag t) nil [211 233])
+            ("sys/epoll.h" include (:system-flag t) nil [234 256])
+            ("handle" variable (:constant-flag t) nil [266 272])
+            ("MAX_EVENTS" variable (:constant-flag t) nil [338 348])
+            ("MAX_EVENTS" variable (:constant-flag t) nil [338 348])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [362 371])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [372 384]))                  
+                :type "int")
+                nil [353 1667]))          
+      :file "simple.c"
+      :pointmax 1668
+      :fsize 1667
+      :lastmodtime '(24800 53878 438104 284000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAX_EVENTS" . ((number "10" 349 . 351)))
+          ("handle" (spp-arg-list ("str") 272 . 277) . 
+              ((DO "do" 282 . 284) (semantic-list "{perror(str);exit(EXIT_FAILURE;)}" 285 . 318) (WHILE "while" 318 . 323) (semantic-list "(0)" 323 . 326) (punctuation ";" 326 . 327)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("sys/epoll.h" include (:system-flag t) nil [60 82])
+            ("unistd.h" include (:system-flag t) nil [83 102])
+            ("handle" variable (:constant-flag t) nil [112 118])
+            ("main" function (:type "int") nil [444 1030]))          
+      :file "easy.c"
+      :pointmax 1031
+      :fsize 1030
+      :lastmodtime '(24800 54700 883844 900000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 118 . 123) . 
+              ((DO "do" 128 . 130) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 131 . 164) (WHILE "while" 164 . 169) (semantic-list "(0)" 169 . 172) (punctuation ";" 172 . 173)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("fcntl.h" include (:system-flag t) nil [43 61])
+            ("netinet/in.h" include (:system-flag t) nil [62 85])
+            ("signal.h" include (:system-flag t) nil [86 105])
+            ("stdio.h" include (:system-flag t) nil [106 124])
+            ("stdlib.h" include (:system-flag t) nil [125 144])
+            ("string.h" include (:system-flag t) nil [145 164])
+            ("sys/epoll.h" include (:system-flag t) nil [165 187])
+            ("sys/socket.h" include (:system-flag t) nil [188 211])
+            ("sys/stat.h" include (:system-flag t) nil [212 233])
+            ("sys/types.h" include (:system-flag t) nil [234 256])
+            ("unistd.h" include (:system-flag t) nil [257 276])
+            ("handle" variable (:constant-flag t) nil [286 292])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [627 636])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [637 649]))                  
+                :type "int")
+                nil [618 5618]))          
+      :file "clean.c"
+      :pointmax 5685
+      :fsize 5662
+      :lastmodtime '(24809 5081 156376 140000)
+      :unmatched-syntax '((symbol 5681 . 5685) (symbol 5676 . 5680) (symbol 5671 . 5675) (symbol 5666 . 5670) (symbol 5661 . 5665) (symbol 5656 . 5660) (symbol 5651 . 5655) (symbol 5645 . 5649) (symbol 5640 . 5644) (symbol 5635 . 5639) (symbol 5630 . 5634) (symbol 5625 . 5629) (symbol 5620 . 5624) (symbol 5620 . 5624) (symbol 5653 . 5657) (symbol 5638 . 5651) (symbol 5626 . 5637) (symbol 5619 . 5625) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5658 . 5662) (symbol 5643 . 5656) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5631 . 5642) (symbol 5620 . 5630) (symbol 5620 . 5627))
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 292 . 297) . 
+              ((DO "do" 361 . 363) (semantic-list "{                                                                         \\
+    perror(str);                                                               \\
+    exit(EXIT_FAILURE);                                                        \\
+  }" 364 . 605) (WHILE "while" 606 . 611) (semantic-list "(0)" 612 . 615) (punctuation ";" 615 . 616)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("errno.h" include (:system-flag t) nil [1 19])
+            ("fcntl.h" include (:system-flag t) nil [20 38])
+            ("stdio.h" include (:system-flag t) nil [39 57])
+            ("stdlib.h" include (:system-flag t) nil [58 77])
+            ("string.h" include (:system-flag t) nil [78 97])
+            ("time.h" include (:system-flag t) nil [98 115])
+            ("unistd.h" include (:system-flag t) nil [116 135])
+            ("sys/epoll.h" include (:system-flag t) nil [137 159])
+            ("sys/socket.h" include (:system-flag t) nil [160 183])
+            ("sys/stat.h" include (:system-flag t) nil [184 205])
+            ("sys/types.h" include (:system-flag t) nil [206 228])
+            ("arpa/inet.h" include (:system-flag t) nil [230 252])
+            ("netinet/in.h" include (:system-flag t) nil [253 276])
+            ("handle" variable (:constant-flag t) nil [286 292])
+            ("MAX_EVENTS" variable (:constant-flag t) nil [628 638])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [652 661])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [662 674]))                  
+                :type "int")
+                nil [643 4574]))          
+      :file "log.c"
+      :pointmax 4575
+      :fsize 4574
+      :lastmodtime '(24801 61501 907260 447000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAX_EVENTS" . ((number "10" 639 . 641)))
+          ("handle" (spp-arg-list ("str") 292 . 297) . 
+              ((DO "do" 363 . 365) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 366 . 607) (WHILE "while" 608 . 613) (semantic-list "(0)" 614 . 617) (punctuation ";" 617 . 618)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 103]))          
+      :file "new.c"
+      :pointmax 104
+      :fsize 103
+      :lastmodtime '(24801 61544 836995 397000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("errno.h" include (:system-flag t) nil [99 117])
+            ("sys/socket.h" include (:system-flag t) nil [119 142])
+            ("sys/types.h" include (:system-flag t) nil [143 165])
+            ("sys/stat.h" include (:system-flag t) nil [166 187])
+            ("netinet/in.h" include (:system-flag t) nil [189 212])
+            ("arpa/inet.h" include (:system-flag t) nil [213 235])
+            ("handle" variable (:constant-flag t) nil [245 251])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [319 328])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [329 341]))                  
+                :type "int")
+                nil [310 1426]))          
+      :file "linger.c"
+      :pointmax 1427
+      :fsize 1426
+      :lastmodtime '(24803 27941 851417 984000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 251 . 256) . 
+              ((DO "do" 263 . 265) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 266 . 299) (WHILE "while" 299 . 304) (semantic-list "(0)" 304 . 307) (punctuation ";" 307 . 308)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("errno.h" include (:system-flag t) nil [99 117])
+            ("sys/socket.h" include (:system-flag t) nil [119 142])
+            ("sys/types.h" include (:system-flag t) nil [143 165])
+            ("sys/stat.h" include (:system-flag t) nil [166 187])
+            ("netinet/in.h" include (:system-flag t) nil [189 212])
+            ("arpa/inet.h" include (:system-flag t) nil [213 235])
+            ("handle" variable (:constant-flag t) nil [245 251])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [319 328])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [329 341]))                  
+                :type "int")
+                nil [310 892]))          
+      :file "cli.c"
+      :pointmax 893
+      :fsize 892
+      :lastmodtime '(24808 62953 826884 77000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 251 . 256) . 
+              ((DO "do" 263 . 265) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 266 . 299) (WHILE "while" 299 . 304) (semantic-list "(0)" 304 . 307) (punctuation ";" 307 . 308)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("fcntl.h" include (:system-flag t) nil [43 61])
+            ("netinet/in.h" include (:system-flag t) nil [62 85])
+            ("stdio.h" include (:system-flag t) nil [86 104])
+            ("stdlib.h" include (:system-flag t) nil [105 124])
+            ("string.h" include (:system-flag t) nil [125 144])
+            ("sys/epoll.h" include (:system-flag t) nil [145 167])
+            ("sys/socket.h" include (:system-flag t) nil [168 191])
+            ("sys/stat.h" include (:system-flag t) nil [192 213])
+            ("sys/types.h" include (:system-flag t) nil [214 236])
+            ("unistd.h" include (:system-flag t) nil [237 256])
+            ("handle" variable (:constant-flag t) nil [266 272])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [609 618])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [619 631]))                  
+                :type "int")
+                nil [600 2878]))          
+      :file "real.c"
+      :pointmax 2879
+      :fsize 2878
+      :lastmodtime '(24803 47899 138350 722000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 272 . 277) . 
+              ((DO "do" 343 . 345) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 346 . 587) (WHILE "while" 588 . 593) (semantic-list "(0)" 594 . 597) (punctuation ";" 597 . 598)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("unistd.h" include (:system-flag t) nil [60 79])
+            ("fcntl.h" include (:system-flag t) nil [80 98])
+            ("sys/types.h" include (:system-flag t) nil [99 121])
+            ("sys/stat.h" include (:system-flag t) nil [122 143])
+            ("sys/socket.h" include (:system-flag t) nil [144 167])
+            ("netinet/in.h" include (:system-flag t) nil [168 191])
+            ("arpa/inet.h" include (:system-flag t) nil [192 214])
+            ("errno.h" include (:system-flag t) nil [215 233])
+            ("handle" variable (:constant-flag t) nil [243 249])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [317 326])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [327 339]))                  
+                :type "int")
+                nil [308 904]))          
+      :file "good.c"
+      :pointmax 910
+      :fsize 909
+      :lastmodtime '(24803 47283 517646 355000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 249 . 254) . 
+              ((DO "do" 261 . 263) (semantic-list "{perror(str);exit(EXIT_FAILURE);}" 264 . 297) (WHILE "while" 297 . 302) (semantic-list "(0)" 302 . 305) (punctuation ";" 305 . 306)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("fcntl.h" include (:system-flag t) nil [43 61])
+            ("netinet/in.h" include (:system-flag t) nil [62 85])
+            ("stdio.h" include (:system-flag t) nil [86 104])
+            ("stdlib.h" include (:system-flag t) nil [105 124])
+            ("string.h" include (:system-flag t) nil [125 144])
+            ("sys/epoll.h" include (:system-flag t) nil [145 167])
+            ("sys/socket.h" include (:system-flag t) nil [168 191])
+            ("sys/stat.h" include (:system-flag t) nil [192 213])
+            ("sys/types.h" include (:system-flag t) nil [214 236])
+            ("unistd.h" include (:system-flag t) nil [237 256])
+            ("handle" variable (:constant-flag t) nil [266 272])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [609 618])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [619 631]))                  
+                :type "int")
+                nil [600 1032]))          
+      :file "ttl.c"
+      :pointmax 1033
+      :fsize 1032
+      :lastmodtime '(24803 48939 24321 208000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 272 . 277) . 
+              ((DO "do" 343 . 345) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 346 . 587) (WHILE "while" 588 . 593) (semantic-list "(0)" 594 . 597) (punctuation ";" 597 . 598)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_GNU_SOURCE" variable (:constant-flag t) nil [9 20])
+            ("arpa/inet.h" include (:system-flag t) nil [22 44])
+            ("errno.h" include (:system-flag t) nil [45 63])
+            ("fcntl.h" include (:system-flag t) nil [64 82])
+            ("netinet/in.h" include (:system-flag t) nil [83 106])
+            ("poll.h" include (:system-flag t) nil [107 124])
+            ("stdio.h" include (:system-flag t) nil [125 143])
+            ("stdlib.h" include (:system-flag t) nil [144 163])
+            ("string.h" include (:system-flag t) nil [164 183])
+            ("sys/socket.h" include (:system-flag t) nil [184 207])
+            ("unistd.h" include (:system-flag t) nil [208 227])
+            ("handle" variable (:constant-flag t) nil [237 243])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [580 589])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [590 602]))                  
+                :type "int")
+                nil [571 1650]))          
+      :file "gongo.c"
+      :pointmax 1651
+      :fsize 2166
+      :lastmodtime '(24804 61828 107153 367000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GNU_SOURCE")
+          ("handle" (spp-arg-list ("str") 243 . 248) . 
+              ((DO "do" 314 . 316) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 317 . 558) (WHILE "while" 559 . 564) (semantic-list "(0)" 565 . 568) (punctuation ";" 568 . 569)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("fcntl.h" include (:system-flag t) nil [43 61])
+            ("netinet/in.h" include (:system-flag t) nil [62 85])
+            ("signal.h" include (:system-flag t) nil [86 105])
+            ("stdio.h" include (:system-flag t) nil [106 124])
+            ("stdlib.h" include (:system-flag t) nil [125 144])
+            ("string.h" include (:system-flag t) nil [145 164])
+            ("sys/socket.h" include (:system-flag t) nil [165 188])
+            ("sys/stat.h" include (:system-flag t) nil [189 210])
+            ("sys/types.h" include (:system-flag t) nil [211 233])
+            ("sys/wait.h" include (:system-flag t) nil [234 255])
+            ("unistd.h" include (:system-flag t) nil [256 275])
+            ("handle" variable (:constant-flag t) nil [285 291])
+            ("sig_handler" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [636 644]))                  
+                :type "void")
+                nil [619 918])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [929 938])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [939 951]))                  
+                :type "int")
+                nil [920 2355]))          
+      :file "pre.c"
+      :pointmax 2356
+      :fsize 2355
+      :lastmodtime '(24805 50446 685755 418000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 291 . 296) . 
+              ((DO "do" 362 . 364) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 365 . 606) (WHILE "while" 607 . 612) (semantic-list "(0)" 613 . 616) (punctuation ";" 616 . 617)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arpa/inet.h" include (:system-flag t) nil [1 23])
+            ("errno.h" include (:system-flag t) nil [24 42])
+            ("fcntl.h" include (:system-flag t) nil [43 61])
+            ("netinet/in.h" include (:system-flag t) nil [62 85])
+            ("signal.h" include (:system-flag t) nil [86 105])
+            ("stdio.h" include (:system-flag t) nil [106 124])
+            ("stdlib.h" include (:system-flag t) nil [125 144])
+            ("string.h" include (:system-flag t) nil [145 164])
+            ("sys/socket.h" include (:system-flag t) nil [165 188])
+            ("sys/stat.h" include (:system-flag t) nil [189 210])
+            ("sys/types.h" include (:system-flag t) nil [211 233])
+            ("sys/wait.h" include (:system-flag t) nil [234 255])
+            ("unistd.h" include (:system-flag t) nil [256 275])
+            ("handle" variable (:constant-flag t) nil [285 291])
+            ("main" function (:type "int") nil [619 827]))          
+      :file "fo.c"
+      :pointmax 828
+      :fsize 827
+      :lastmodtime '(24805 54155 959370 576000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("handle" (spp-arg-list ("str") 291 . 296) . 
+              ((DO "do" 362 . 364) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 365 . 606) (WHILE "while" 607 . 612) (semantic-list "(0)" 613 . 616) (punctuation ";" 616 . 617)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_GNU_SOURCE" variable (:constant-flag t) nil [9 20])
+            ("arpa/inet.h" include (:system-flag t) nil [22 44])
+            ("errno.h" include (:system-flag t) nil [45 63])
+            ("fcntl.h" include (:system-flag t) nil [64 82])
+            ("grp.h" include (:system-flag t) nil [83 99])
+            ("netinet/in.h" include (:system-flag t) nil [100 123])
+            ("signal.h" include (:system-flag t) nil [124 143])
+            ("stdio.h" include (:system-flag t) nil [144 162])
+            ("stdlib.h" include (:system-flag t) nil [163 182])
+            ("string.h" include (:system-flag t) nil [183 202])
+            ("sys/epoll.h" include (:system-flag t) nil [203 225])
+            ("sys/socket.h" include (:system-flag t) nil [226 249])
+            ("sys/stat.h" include (:system-flag t) nil [250 271])
+            ("sys/types.h" include (:system-flag t) nil [272 294])
+            ("sys/wait.h" include (:system-flag t) nil [295 316])
+            ("unistd.h" include (:system-flag t) nil [317 336])
+            ("handle" variable (:constant-flag t) nil [346 352])
+            ("sig_handler" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [697 705]))                  
+                :type "void")
+                nil [680 981])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [991 1000])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1001 1013]))                  
+                :type "int")
+                nil [982 5283]))          
+      :file "prefork.c"
+      :pointmax 5284
+      :fsize 5283
+      :lastmodtime '(24808 63827 607149 592000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GNU_SOURCE")
+          ("handle" (spp-arg-list ("str") 352 . 357) . 
+              ((DO "do" 423 . 425) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 426 . 667) (WHILE "while" 668 . 673) (semantic-list "(0)" 674 . 677) (punctuation ";" 677 . 678)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_GNU_SOURCE" variable (:constant-flag t) nil [9 20])
+            ("arpa/inet.h" include (:system-flag t) nil [22 44])
+            ("errno.h" include (:system-flag t) nil [45 63])
+            ("fcntl.h" include (:system-flag t) nil [64 82])
+            ("grp.h" include (:system-flag t) nil [83 99])
+            ("netinet/in.h" include (:system-flag t) nil [100 123])
+            ("signal.h" include (:system-flag t) nil [124 143])
+            ("stdio.h" include (:system-flag t) nil [144 162])
+            ("stdlib.h" include (:system-flag t) nil [163 182])
+            ("string.h" include (:system-flag t) nil [183 202])
+            ("sys/epoll.h" include (:system-flag t) nil [203 225])
+            ("sys/socket.h" include (:system-flag t) nil [226 249])
+            ("sys/stat.h" include (:system-flag t) nil [250 271])
+            ("sys/types.h" include (:system-flag t) nil [272 294])
+            ("sys/wait.h" include (:system-flag t) nil [295 316])
+            ("time.h" include (:system-flag t) nil [317 334])
+            ("unistd.h" include (:system-flag t) nil [335 354])
+            ("handle" variable (:constant-flag t) nil [364 370])
+            ("childs" variable
+               (:dereference 1
+                :type ("pid_t" type (:type "class") nil nil))
+                nil [696 712])
+            ("busy_childs" variable
+               (:dereference 1
+                :default-value "{0}"
+                :type "int")
+                nil [713 738])
+            ("sig_handler" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [757 765])
+                    ("info" variable
+                       (:pointer 1
+                        :type ("siginfo_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [766 782])
+                    ("context" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [783 797]))                  
+                :type "void")
+                nil [740 1223])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1234 1243])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1244 1256]))                  
+                :type "int")
+                nil [1225 6176]))          
+      :file "perm.c"
+      :pointmax 6177
+      :fsize 6176
+      :lastmodtime '(24811 41242 987115 69000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GNU_SOURCE")
+          ("handle" (spp-arg-list ("str") 370 . 375) . 
+              ((DO "do" 441 . 443) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 444 . 685) (WHILE "while" 686 . 691) (semantic-list "(0)" 692 . 695) (punctuation ";" 695 . 696)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_GNU_SOURCE" variable (:constant-flag t) nil [9 20])
+            ("arpa/inet.h" include (:system-flag t) nil [22 44])
+            ("errno.h" include (:system-flag t) nil [45 63])
+            ("fcntl.h" include (:system-flag t) nil [64 82])
+            ("grp.h" include (:system-flag t) nil [83 99])
+            ("netinet/in.h" include (:system-flag t) nil [100 123])
+            ("signal.h" include (:system-flag t) nil [124 143])
+            ("stdio.h" include (:system-flag t) nil [144 162])
+            ("stdlib.h" include (:system-flag t) nil [163 182])
+            ("string.h" include (:system-flag t) nil [183 202])
+            ("sys/epoll.h" include (:system-flag t) nil [203 225])
+            ("sys/socket.h" include (:system-flag t) nil [226 249])
+            ("sys/stat.h" include (:system-flag t) nil [250 271])
+            ("sys/types.h" include (:system-flag t) nil [272 294])
+            ("sys/wait.h" include (:system-flag t) nil [295 316])
+            ("time.h" include (:system-flag t) nil [317 334])
+            ("unistd.h" include (:system-flag t) nil [335 354])
+            ("handle" variable (:constant-flag t) nil [364 370])
+            ("sig_handler" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [715 723]))                  
+                :type "void")
+                nil [698 999])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1009 1018])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1019 1031]))                  
+                :type "int")
+                nil [1000 4695]))          
+      :file "perm_copy.c"
+      :pointmax 4696
+      :fsize 4695
+      :lastmodtime '(24809 2288 862567 349000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GNU_SOURCE")
+          ("handle" (spp-arg-list ("str") 370 . 375) . 
+              ((DO "do" 441 . 443) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 444 . 685) (WHILE "while" 686 . 691) (semantic-list "(0)" 692 . 695) (punctuation ";" 695 . 696)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 104]))          
+      :file "test.c"
+      :pointmax 105
+      :fsize 104
+      :lastmodtime '(24799 47589 499869 941000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39]))          
+      :file "pipe.c"
+      :pointmax 40
+      :fsize 39
+      :lastmodtime '(24809 3495 907819 994000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_GNU_SOURCE" variable (:constant-flag t) nil [10 21])
+            ("_GNU_SOURCE" variable (:constant-flag t) nil [10 21])
+            ("arpa/inet.h" include (:system-flag t) nil [23 45])
+            ("errno.h" include (:system-flag t) nil [46 64])
+            ("fcntl.h" include (:system-flag t) nil [65 83])
+            ("grp.h" include (:system-flag t) nil [84 100])
+            ("netinet/in.h" include (:system-flag t) nil [101 124])
+            ("signal.h" include (:system-flag t) nil [125 144])
+            ("stdio.h" include (:system-flag t) nil [145 163])
+            ("stdlib.h" include (:system-flag t) nil [164 183])
+            ("string.h" include (:system-flag t) nil [184 203])
+            ("sys/epoll.h" include (:system-flag t) nil [204 226])
+            ("sys/socket.h" include (:system-flag t) nil [227 250])
+            ("sys/stat.h" include (:system-flag t) nil [251 272])
+            ("sys/types.h" include (:system-flag t) nil [273 295])
+            ("sys/wait.h" include (:system-flag t) nil [296 317])
+            ("time.h" include (:system-flag t) nil [318 335])
+            ("unistd.h" include (:system-flag t) nil [336 355])
+            ("handle" variable (:constant-flag t) nil [365 371])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [708 717])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [718 730]))                  
+                :type "int")
+                nil [699 1489]))          
+      :file "getinfo.c"
+      :pointmax 1490
+      :fsize 1488
+      :lastmodtime '(24811 28943 830465 925000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GNU_SOURCE")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_GNU_SOURCE" variable (:constant-flag t) nil [9 20])
+            ("arpa/inet.h" include (:system-flag t) nil [22 44])
+            ("errno.h" include (:system-flag t) nil [45 63])
+            ("fcntl.h" include (:system-flag t) nil [64 82])
+            ("grp.h" include (:system-flag t) nil [83 99])
+            ("netinet/in.h" include (:system-flag t) nil [100 123])
+            ("signal.h" include (:system-flag t) nil [124 143])
+            ("stdio.h" include (:system-flag t) nil [144 162])
+            ("stdlib.h" include (:system-flag t) nil [163 182])
+            ("string.h" include (:system-flag t) nil [183 202])
+            ("sys/epoll.h" include (:system-flag t) nil [203 225])
+            ("sys/socket.h" include (:system-flag t) nil [226 249])
+            ("sys/stat.h" include (:system-flag t) nil [250 271])
+            ("sys/types.h" include (:system-flag t) nil [272 294])
+            ("sys/wait.h" include (:system-flag t) nil [295 316])
+            ("time.h" include (:system-flag t) nil [317 334])
+            ("unistd.h" include (:system-flag t) nil [335 354])
+            ("handle" variable (:constant-flag t) nil [364 370])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [707 716])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [717 729]))                  
+                :type "int")
+                nil [698 1627]))          
+      :file "testing.c"
+      :pointmax 1628
+      :fsize 1627
+      :lastmodtime '(24811 31021 660192 792000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GNU_SOURCE")
+          ("handle" (spp-arg-list ("str") 370 . 375) . 
+              ((DO "do" 441 . 443) (semantic-list "{                                                                       \\
+        perror(str);                                                           \\
+        exit(EXIT_FAILURE);                                                    \\
+    }" 444 . 685) (WHILE "while" 686 . 691) (semantic-list "(0)" 692 . 695) (punctuation ";" 695 . 696)))
+          )
+))
+  :file "!home!long!EP!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,1 @@
+("~/" "~/.emacs.d/" "~/CPP/" "~/dotfiles/" "~/UNI/" "~/SK/led/LiquidCrystal/" "~/BRUCH/" "~/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.13/node_modules/fstream/" "~/NEW/" "~/SHOW/.emacs.d3/" "~/st/" "~/SHOW/")

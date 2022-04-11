@@ -1,0 +1,436 @@
+;; Object semanticdb-project-database-file-157ef560df80
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157ef560df80"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157ef560df9c"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("isInteger" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [75 82]))                  
+                :type "int")
+                nil [61 83])
+            ("read_numerator" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [103 108]))                  
+                :type "int")
+                nil [84 109])
+            ("read_denominator" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [131 136]))                  
+                :type "int")
+                nil [110 137])
+            ("addition" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [153 159])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [160 166]))                  
+                :type "void")
+                nil [139 167])
+            ("subtraction" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [185 191])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [192 198]))                  
+                :type "void")
+                nil [168 199])
+            ("multiplication" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [220 226])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [227 233]))                  
+                :type "void")
+                nil [200 234])
+            ("division" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [249 255])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [256 262]))                  
+                :type "void")
+                nil [235 263])
+            ("ggt" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [273 277])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [278 282]))                  
+                :type "int")
+                nil [265 283])
+            ("reduce" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [296 302])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [303 309])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [310 316]))                  
+                :type "void")
+                nil [284 317])
+            ("print_fraction" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [338 344])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [345 351])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [352 358])
+                    ("" variable (:type "char") (reparse-symbol arg-sub-list) [359 364]))                  
+                :type "void")
+                nil [318 365])
+            ("isInteger" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [381 391]))                  
+                :type "int")
+                nil [367 536])
+            ("read_numerator" function (:type "int") nil [538 697])
+            ("read_denominator" function (:type "int") nil [699 964])
+            ("addition" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [980 991])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [992 1004]))                  
+                :type "void")
+                nil [966 1485])
+            ("subtraction" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1504 1515])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1516 1528]))                  
+                :type "void")
+                nil [1487 2008])
+            ("multiplication" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2030 2041])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2042 2054]))                  
+                :type "void")
+                nil [2010 2302])
+            ("division" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2318 2329])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2330 2342]))                  
+                :type "void")
+                nil [2304 2590])
+            ("ggt" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2600 2606])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2607 2613]))                  
+                :type "int")
+                nil [2592 2730])
+            ("reduce" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2744 2755])
+                    ("frac2" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2756 2767])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2768 2780]))                  
+                :type "void")
+                nil [2732 2869])
+            ("print_fraction" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2891 2902])
+                    ("frac2" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2903 2914])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2915 2927])
+                    ("sign" variable (:type "char") (reparse-symbol arg-sub-list) [2928 2938]))                  
+                :type "void")
+                nil [2871 3109])
+            ("main" function (:type "int") nil [3111 4086]))          
+      :file "6.c"
+      :pointmax 4087
+      :fsize 4086
+      :lastmodtime '(25009 22413 170600 758000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-157ef54edc08"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("isInteger" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [75 82]))                  
+                :type "int")
+                nil [61 83])
+            ("read_numerator" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [103 108]))                  
+                :type "int")
+                nil [84 109])
+            ("read_denominator" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [131 136]))                  
+                :type "int")
+                nil [110 137])
+            ("addition" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [153 159])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [160 166]))                  
+                :type "void")
+                nil [139 167])
+            ("subtraction" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [185 191])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [192 198]))                  
+                :type "void")
+                nil [168 199])
+            ("multiplication" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [220 226])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [227 233]))                  
+                :type "void")
+                nil [200 234])
+            ("division" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [249 255])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [256 262]))                  
+                :type "void")
+                nil [235 263])
+            ("ggt" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [273 277])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [278 282]))                  
+                :type "int")
+                nil [265 283])
+            ("reduce" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [295 301])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [302 308]))                  
+                :type "int")
+                nil [284 309])
+            ("print_fraction" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [330 336])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [337 343])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [344 350])
+                    ("" variable (:type "char") (reparse-symbol arg-sub-list) [351 356]))                  
+                :type "void")
+                nil [310 357])
+            ("isInteger" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [373 383]))                  
+                :type "int")
+                nil [359 528])
+            ("read_numerator" function (:type "int") nil [530 689])
+            ("read_denominator" function (:type "int") nil [691 956])
+            ("addition" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [972 983])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [984 996]))                  
+                :type "void")
+                nil [958 1528])
+            ("subtraction" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1547 1558])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1559 1571]))                  
+                :type "void")
+                nil [1530 2102])
+            ("multiplication" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2124 2135])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2136 2148]))                  
+                :type "void")
+                nil [2104 2447])
+            ("division" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2463 2474])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2475 2487]))                  
+                :type "void")
+                nil [2449 2786])
+            ("ggt" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2796 2802])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2803 2809]))                  
+                :type "int")
+                nil [2788 2926])
+            ("print_fraction" function
+               (:arguments 
+                  ( ("frac1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2948 2959])
+                    ("frac2" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2960 2971])
+                    ("result" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2972 2984])
+                    ("sign" variable (:type "char") (reparse-symbol arg-sub-list) [2985 2995]))                  
+                :type "void")
+                nil [2928 3166])
+            ("main" function (:type "int") nil [3168 4143]))          
+      :file "brc.c"
+      :pointmax 4144
+      :fsize 4143
+      :lastmodtime '(25007 59160 871089 202000)
+      :unmatched-syntax nil))
+  :file "!home!max!BRUCH!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
